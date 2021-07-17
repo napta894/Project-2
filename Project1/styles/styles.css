@@ -15,7 +15,7 @@ font-weight: 700;
     line-height: normal;
 }
 .navbar a:hover {
-    background-color: #bbb;
+    background-color:#83ADCD;
     text-align: center;
 }
 div {
@@ -37,7 +37,7 @@ li a {
 font-family: Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
 font-style: bold;
 font-size: 18px;
-color:white;
+color: #C4C4C4;
 text-decoration: none;
 padding: 6px;
 display: block;
