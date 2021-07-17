@@ -1,9 +1,8 @@
 body {
-height: 80px;  
-margin-top: 0px;  
-padding: 64px;  
+height: 0 px ;  
+margin-top: 0 px;  
+padding: 16 px;  
 background-color: #204264;
-background-size: cover;  
 font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
 font-weight: 700;
 }
@@ -39,9 +38,31 @@ font-style: bold;
 font-size: 18px;
 color: #C4C4C4;
 text-decoration: none;
-padding: 6px;
+padding: 16px;
 display: block;
 }
+
+.svg
+{
+    /* Group 25 */
+
+position: absolute;
+left: 43.07%;
+right: 51.28%;
+top: 0.12%;
+bottom: 92.52%;
+
+/* Rectangle 16 */
+
+position: absolute;
+left: 43.07%;
+right: 51.28%;
+top: 0.12%;
+bottom: 92.52%;
+
+background: #83ADCD;
+}
+
 
 
 
