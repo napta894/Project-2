@@ -1,17 +1,49 @@
 body {
-height: 125px;  
-margin-top: 80px;  
-padding: 30px;  
+height: 80px;  
+margin-top: 0px;  
+padding: 64px;  
 background-color: #204264;
 background-size: cover;  
 font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
 font-weight: 700;
 }
+.navbar {
+    background-color: #204264;
+    overflow: hidden;
+    float:right;
+    text-align: right;
+    line-height: normal;
+}
+.navbar a:hover {
+    background-color: #bbb;
+    text-align: center;
+}
+div {
+display: inline;
+}
  ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        position: absolute;
     }
+
+li {
+   display: inline;
+   float: right;
+   text-align: center;
+}
+
+li a {
+font-family: Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
+font-style: bold;
+font-size: 18px;
+color:white;
+text-decoration: none;
+padding: 6px;
+display: block;
+}
+
+
+
 
 
