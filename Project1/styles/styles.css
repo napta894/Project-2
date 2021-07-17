@@ -41,27 +41,12 @@ text-decoration: none;
 padding: 16px;
 display: block;
 }
-
-.svg
-{
-    /* Group 25 */
-
-position: absolute;
-left: 43.07%;
-right: 51.28%;
-top: 0.12%;
-bottom: 92.52%;
-
-/* Rectangle 16 */
-
-position: absolute;
-left: 43.07%;
-right: 51.28%;
-top: 0.12%;
-bottom: 92.52%;
-
-background: #83ADCD;
+.big-div {
+overflow: hidden;
+position: relative;
+margin: 10px 15px 15px 10px;
 }
+
 
 
 
