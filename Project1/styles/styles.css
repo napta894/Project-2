@@ -1,10 +1,13 @@
 body {
 height: 0 px ;  
-margin-top: 0 px;  
+margin-top: 5 px;  
 padding: 16 px;  
 background-color: #204264;
-font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
+font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif; 
 font-weight: 700;
+position: absolute;
+right: 5px;
+left:5px;
 }
 .navbar {
     background-color: #204264;
@@ -12,6 +15,7 @@ font-weight: 700;
     float:right;
     text-align: right;
     line-height: normal;
+    position: relative;
 }
 .navbar a:hover {
     background-color:#83ADCD;
@@ -20,9 +24,10 @@ font-weight: 700;
 div {
 display: inline;
 }
+
  ul {
         list-style-type: none;
-        margin: 0;
+        margin: 5px;
         padding: 0;
     }
 
