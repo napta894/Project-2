@@ -41,7 +41,7 @@ li a {
 font-family: Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
 font-style: bold;
 font-size: 18px;
-color: #C4C4C4;
+color: whitesmoke;
 text-decoration: none;
 padding: 16px;
 display: block;
@@ -51,7 +51,13 @@ overflow: hidden;
 position: relative;
 margin: 10px 15px 15px 10px;
 }
-
+.h1 {
+   
+    left: 50px;
+    right: 30px;
+    top: 20 px;
+    bottom: 70% ;   
+}
 
 
 
