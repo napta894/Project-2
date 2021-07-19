@@ -49,15 +49,19 @@ display: block;
 .big-div {
 overflow: hidden;
 position: relative;
-margin: 10px 15px 15px 10px;
+margin: 20px 15px 15px 20px;
 }
-.h1 {
-   
-    left: 50px;
-    right: 30px;
-    top: 20 px;
-    bottom: 70% ;   
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#C4C4C4, 100%;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
 }
+
 
 
 
