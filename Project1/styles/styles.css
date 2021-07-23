@@ -56,10 +56,22 @@ margin: 20px 15px 15px 20px;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#C4C4C4, 100%;
+    background-color:#173350, 47%;
     color: black;
     font-family: Helvetica, sans-serif;
     text-align: center;
+}
+.portrait {
+position:absolute;
+left: 10px;
+top: 200px;
+display: inline-block;
+border-radius: 85%; 
+margin-top: 80px;
+margin-bottom: 80px;
+height: 250px; 
+margin: 80px 200px;
+display: flex;
 }
 
 
