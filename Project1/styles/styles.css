@@ -10,9 +10,9 @@ html
 }
 body {
 height: 0 px ;  
-margin-top: 5 px;  
-padding: 16 px;  
-background-color: #204264;
+margin-top: 0 px;  
+padding: 6 px;  
+background-color: #F3EFE9;
 font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif; 
 font-weight: 700;
 position: fixed;
@@ -20,79 +20,61 @@ right: 5px;
 left:5px;
 }
 .navbar {
-    background-color: #204264;
+    background-color: #BDA6A2;
     overflow: hidden;
-    float:right;
     text-align: right;
     line-height: normal;
-    position: relative;
 }
 .navbar a:hover {
-    background-color:#83ADCD;
+    background-color:#9C8194;
     text-align: center;
 }
 div {
-display: inline;
+display:inline;
+
 }
 
  ul {
         list-style-type: none;
-        margin: 5px;
+        margin: 0px;
         padding: 0;
     }
-
 li {
    display: inline;
    float: right;
    text-align: center;
 }
-
 li a {
-font-family: Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
-font-style: bold;
+font-family: sans-serif,'Gill Sans', 'Gill Sans MT', sans-serif;
+font-style: regular;
+font-weight: 200;
 font-size: 18px;
-color: whitesmoke;
+color: black;
 text-decoration: none;
 padding: 16px;
-display: block;
-}
-.big-div {
-overflow: hidden;
-position: relative;
-margin: 20px 15px 15px 20px;
 }
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#C4C4C4;
+    background-color:#F3EFE9;
     text-align: justify;
     color: black;
-    font-family: Helvetica, sans-serif;
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
     font-size: 24px;
     padding-left: 18px;
 }
-.portrait {
-position:absolute;
-left: 10px;
-top: 200px;
-display: inline-block;
-margin-top: 80px;
-margin-bottom: 80px;
-height: 250px; 
-margin: 80px 200px;
-display: flex;
-}
 .contactme {
-    font-family: Helvetica, sans-serif;
+    font-family: -apple-system,'Segoe UI','Helvetica Neue', sans-serif, sans-serif;
     font-size: 24px;
+    font-weight: 200;
+    color: black;
     text-align: left;
     position: absolute;
     float: left;
     left: 350px;
-    top: 10px;
-    margin-bottom: inherit;
+    top: 0px;
 }
 .container {
         border: none;
@@ -104,19 +86,18 @@ display: flex;
         align-items: center;  
 }
 .button {
-    border-radius: 50%;
+    border-radius: 0%;
     padding: 9px 9px;
-    font-size: 18px; 
+    font-size: 10px; 
     text-decoration: none;  
     margin: 0px 2px;
     text-align: center;
-    border-color: #173350 ;
 }
 .button a {
     text-decoration: none;  
 }
 .button:hover {
-    background-color: #83ADCD;
+    background-color: #9C8194;
 }
 .scrollable {
     height: 100px; /* or any value */
