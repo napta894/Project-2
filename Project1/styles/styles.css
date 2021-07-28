@@ -1,23 +1,14 @@
 html
 {
-     margin: 0;
-     padding:0; 
-     border: 0;
      overflow: hidden;
-     height: 100px; /* or any value */
+     height: 1800px; /* or any value */
      overflow-y: auto;
      scroll-behavior: smooth;
 }
-body {
-height: 0 px ;  
-margin-top: 0 px;  
-padding: 6 px;  
+body { 
 background-color: #F3EFE9;
 font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif; 
 font-weight: 700;
-position: fixed;
-right: 5px;
-left:5px;
 }
 .navbar {
     background-color: none;
@@ -25,6 +16,7 @@ left:5px;
     text-align: right;
     margin: 10px 15px 15px 10px;
     margin-top: 5px;
+    display: inline;
 }
 .navbar a:hover {
     background-color:#9C8194;
@@ -35,17 +27,15 @@ display:inline;
 }
  ul {
         list-style-type: none;
-        margin: 0;
+        margin: 0px 50px 120px 150px;
         padding: 0;
-        display:inline;
     }
 li {
    display: inline;
-   text-align: center;
+   text-align: right;
 }
-li a {
+nav a {
 font-family: sans-serif,'Gill Sans', 'Gill Sans MT', sans-serif;
-font-style: regular;
 font-weight: 200;
 font-size: 18px;
 color: black;
@@ -79,28 +69,24 @@ padding: 16px;
         border: none;
         padding: 0px;
         position: relative;
-        left: 750px;
-        top: 5px;
-        bottom:500px; 
+        left: 500px;
+        top: 10px;
+        bottom:200px;
         align-items: center;  
 }
 .button {
-    border-radius: 0%;
     padding: 9px 9px;
     font-size: 10px; 
     text-decoration: none;  
-    margin: 0px 2px;
+    margin: 5px 9px;
     text-align: center;
+    background-color:#F3EFE9;
 }
 .button a {
     text-decoration: none;  
 }
 .button:hover {
     background-color: #9C8194;
-}
-.scrollable {
-    height: 100px; /* or any value */
-    overflow-y: auto;
 }
 .navigation-container {
         display: inline-block;
@@ -114,8 +100,43 @@ padding: 16px;
        border-style: solid;
        background-color: #F3EFE9;
 }
-
-
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 960px;
+    height: auto;
+}
+.clear {
+    clear: both;
+}
+.about {
+position: absolute;
+left: 0px;
+right: 0%;
+top: 750px;
+bottom: 0%;
+border: none;
+height: 600px;
+background-color: white;
+}
+.btn1 {
+  border-color: #9C8194;
+  border-style: solid;
+  background-color: none;
+  font-size: 18px;
+  margin-left: 400px;
+  width:200px;
+  height:69px;
+  background-color: white;
+  float: left;
+}
+.btn1:hover {
+    background-color: #9C8194;
+}
 
 
 
