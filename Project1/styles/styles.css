@@ -172,13 +172,27 @@ align-content: center;
 }
 /*worksection box Css */    
 .box-wrapper {
-        height: 120vh;
-        widows: auto;
-        display: flex;
-        align-items: stretch;
+        height: 1800px;
+        width: auto;
         row-gap: 2px;
-
 }
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.scroll{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 80px;
+  	white-space:nowrap
+}
+.scrolling-wrapper-flexbox {
+    flex-direction: row;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
 #box1 {
     margin-top: 100px;
     flex: 1 1 auto;
@@ -222,21 +236,6 @@ align-content: center;
     background-color: #D6C2C2; 
 }
 
-.scrolling-wrapper-flexbox {
-    flex-direction: row;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
- .card {
- display: inline-flex;
-  }
-.scroll{
-	overflow-x: scroll;
-	overflow-y: hidden;
-	height: 80px;
-  	white-space:nowrap
-}
 /*Portfolio Css */
 .portfolio {
     background:none;
