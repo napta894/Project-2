@@ -11,7 +11,9 @@ background-color: #F3EFE9;
 font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif; 
 font-weight: 600;
 }
+
 /*Navigation Section Css */
+
 .navbar {
     background-color: none;
     overflow: hidden;
@@ -44,7 +46,51 @@ color: black;
 text-decoration: none;
 padding: 16px;
 }
+
+/*Main page Css */
+
+.mainh1 {
+    font-family: Helvetica, sans-serif, serif; 
+    font-size: 48px; 
+    align-content: center ; 
+    font-weight: 700; 
+    line-height: 30px; 
+    position:relative; 
+    left: 480px; 
+    right: 30px; 
+    top: 350% ;
+    bottom: 20% ; 
+    color:black;
+}
+.mainh2 {
+    font-family: Helvetica, sans-serif; 
+    font-size: 36px; 
+    align-content:center ; 
+    font-weight:200; 
+    line-height: 30px; 
+    position:relative; 
+    left: 480px; 
+    right: 30px; 
+    top: 250% ;
+    bottom: 10% ; 
+    color:#9C8194
+}
+.mainh3 {
+    font-family: Didot,serif; 
+    font-size: 18px; 
+    font-style: italic; 
+    line-height: 30px; 
+    position:relative ; 
+    left: 480px; 
+    right: 30px; 
+    top: 450% ;
+    bottom: 0% ; 
+    color:black; 
+    opacity:60%;
+}
+
 /*Footer Css */
+
 .footer {
     position: fixed;
     left: 0;
@@ -57,6 +103,19 @@ padding: 16px;
     font-size: 24px;
     padding-left: 18px;
 }
+.table {
+    width:5px; 
+    border-spacing:5px; 
+    padding:10px
+}
+
+.footer_h2 {
+    font-size: 20px; 
+    font-family: Helvetica, sans-serif;  
+    font-weight:lighter; 
+    text-align: center;
+}
+
 .contactme {
     font-family: -apple-system,'Segoe UI','Helvetica Neue', sans-serif, sans-serif;
     font-size: 24px;
@@ -107,11 +166,39 @@ p {
     line-height: 20px;
     margin-bottom: 20px;
 }
+
+
 /*Aboutme section Css */
+
+.abouth1 {
+    font-family:Helvetica, sans-serif; 
+    font-size: 36px; 
+    align-content:right; 
+    font-weight:200px; 
+    line-height: 30px; 
+    position: relative; 
+    left: 90px; 
+    right: 5px ; 
+    top: 5%; 
+    bottom:40%; 
+    color:#9C8194"
+}
+.aboutp {
+    font-family:Helvetica, sans-serif; 
+    font-size: 24px;  
+    font-weight:200; 
+    line-height: 30px; 
+    position: relative; 
+    left: 200 px; 
+    right: 5px; 
+    margin-left:100px; 
+    color:black
+}
+
 .wrapper {
-    margin: 0 auto;
-    padding: 0 10px;
-    width: 960px;
+    margin: 20px auto;
+    padding: 20 10px;
+    width: 1000px;
     height: auto;
 }
 .clear {
@@ -142,7 +229,9 @@ background-color: white;
 .btn1:hover {
     background-color: #9C8194;
 }
+
 /*Aboutme page Css */
+
  .aboutme {
 background:none;
 color:black;
@@ -150,15 +239,72 @@ position: relative;
 bottom: 70px;
 left: 40px;   
  }
+
+.aboutme_h1 {
+    font-family:Helvetica, sans-serif; 
+    font-size: 40px; 
+    align-content:right; 
+    font-weight:regular; 
+    line-height: 30px; 
+    position: relative; 
+    left: 10px; 
+    right: 10px ; 
+    top: 350%; 
+    bottom:40%; 
+    color:#9C8194"
+}
+
+.aboutme_p {
+   font-family:Helvetica, sans-serif; 
+   font-size: 24px; 
+   align-content:right; 
+   font-weight:200; 
+   line-height: 30px; 
+   position: relative; 
+   left: 10px; 
+   right: 10px; 
+   top: 450% ;
+   bottom: 50% ; 
+}
+
  .resume {
 background:none;
-color:black;
+color:#9C8194;
+font-size: 36px;
 position: relative;
 bottom: 50px;
 left: 40px;  
 align-content: center;
  }
+
+.resume_h1 {
+    font-family:Helvetica, sans-serif; 
+    font-size: 36px; 
+    align-content:right; 
+    font-weight:200px; 
+    line-height: 30px; 
+    position: relative;
+     left: 20px; 
+     right: 5px ;
+     top: 5%; 
+     bottom:40%; 
+     color:#9C8194
+}
+
+
 /*worksection body Css */
+
+.workh1 {
+font-family:Helvetica, sans-serif; 
+font-size: 36px;  
+font-weight:bold; 
+line-height: 30px; 
+position: absolute;  
+right:1220px; 
+top: 30px; 
+margin-left:80px; 
+color: white;
+}
 .work {
     position: absolute;
     width: auto;
@@ -170,28 +316,49 @@ align-content: center;
     height: 800px;
     background-color:#BDA6A2;
 }
-/*worksection box Css */    
+/*worksection box Css */   
 .box-wrapper {
-        height: 1800px;
+        height: 800px;
         width: auto;
         row-gap: 2px;
 }
+.box1_h1 {
+font-family: Helvetica, sans-serif; 
+font-size: 24px; 
+font-weight: 200; 
+position: relative; 
+left:100px; 
+}
+
+.box2_h2 {
+    font-family:Helvetica, sans-serif; 
+    font-size: 24px;  
+    font-weight:200; 
+    position: relative; 
+    left: 70px; 
+    color:black;
+}
+
+.box3_h2 {
+    font-family:Helvetica, sans-serif; 
+    font-size: 24px; 
+    font-weight:200; 
+    position: relative; 
+    left: 70px; 
+    color:black;
+}
+
 .item {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.scroll{
-	overflow-x: scroll;
-	overflow-y: hidden;
-	height: 80px;
-  	white-space:nowrap
 }
 .scrolling-wrapper-flexbox {
     flex-direction: row;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
+    white-space:nowrap
   }
 #box1 {
     margin-top: 100px;
@@ -214,14 +381,7 @@ align-content: center;
     flex: 1 1 auto;
     margin: 5 0px;
 }
-#box4 {
-    flex-grow: 1;
-    padding: 2px;
-    margin-top: 100px;
-    flex: 1 1 auto;
-    margin: 5 0px;
-    float:inline-start;
-}
+
 .btn2 {
     border-color: black;
     border-style: solid;
@@ -241,7 +401,7 @@ align-content: center;
     background:none;
     color:black;
     position: relative;
-    bottom: 10px;
+    bottom: 100px;
     left: 40px;
 }
 .portfolio_container {
