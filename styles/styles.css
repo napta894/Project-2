@@ -244,14 +244,13 @@ left: 40px;
     font-family:Helvetica, sans-serif; 
     font-size: 40px; 
     align-content:right; 
-    font-weight:regular; 
     line-height: 30px; 
     position: relative; 
     left: 10px; 
     right: 10px ; 
     top: 350%; 
     bottom:40%; 
-    color:#9C8194"
+    color:#9C8194;
 }
 
 .aboutme_p {
@@ -290,8 +289,39 @@ align-content: center;
      bottom:40%; 
      color:#9C8194
 }
+   .container1 {
+     position: relative;
+     left: 25px;
+     bottom:40px;
+   }
 
+   .table1 {
+       width: 100%;
+       border-spacing: 55px;
+       padding: 5px;
+       
+   }
 
+    td {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    }
+
+    #first {
+        position: absolute;
+        float: left;
+        left: 160px;
+        top:50px;
+    }
+    #htmlicon {
+        position: relative;
+        left: 30px;
+        top:50px;
+    }
+
+    
+    
 /*worksection body Css */
 
 .workh1 {
@@ -316,7 +346,9 @@ color: white;
     height: 800px;
     background-color:#BDA6A2;
 }
-/*worksection box Css */   
+
+/*work section box Css */   
+
 .box-wrapper {
         height: 800px;
         width: auto;
