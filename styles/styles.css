@@ -49,6 +49,12 @@ padding: 16px;
 
 /*Main page Css */
 
+#homepage {
+    position: absolute;
+    left: auto;
+    margin-top: 110px;
+}
+
 .mainh1 {
     font-family: Helvetica, sans-serif, serif; 
     font-size: 48px; 
@@ -58,8 +64,8 @@ padding: 16px;
     position:relative; 
     left: 480px; 
     right: 30px; 
-    top: 350% ;
-    bottom: 20% ; 
+    top: 50% ;
+    bottom: 10% ; 
     color:black;
 }
 .mainh2 {
@@ -170,6 +176,11 @@ p {
 
 /*Aboutme section Css */
 
+.portrait {
+    padding: 25px;
+    align-content: center;
+}
+
 .abouth1 {
     font-family:Helvetica, sans-serif; 
     font-size: 36px; 
@@ -198,7 +209,7 @@ p {
 .wrapper {
     margin: 20px auto;
     padding: 20 10px;
-    width: 1000px;
+    width: auto;
     height: auto;
 }
 .clear {
@@ -271,7 +282,6 @@ background:none;
 color:#9C8194;
 font-size: 36px;
 position: relative;
-bottom: 50px;
 left: 40px;  
 align-content: center;
  }
@@ -279,26 +289,25 @@ align-content: center;
 .resume_h1 {
     font-family:Helvetica, sans-serif; 
     font-size: 36px; 
-    align-content:right; 
     font-weight:200px; 
     line-height: 30px; 
     position: relative;
-     left: 20px; 
+     left: 50px; 
      right: 5px ;
-     top: 5%; 
-     bottom:40%; 
+     top: 65px; 
+     bottom:30%; 
      color:#9C8194
 }
    .container1 {
      position: relative;
      left: 25px;
-     bottom:10px;
+     bottom:40px;
    }
 
    .table1 {
        width: 100%;
        border-spacing: 50px;
-       padding: 5px;
+       padding: 15px;
        position: relative;
        top:5px;
        
@@ -440,8 +449,14 @@ position: absolute;
 
 .info {
     font-family:Helvetica, sans-serif; 
-    font-size: 18px;     
+    color: white;
+    text-align: center;
+    font-size: 24px;  
+    position: relative; 
+    margin-bottom: 20px;
+    left: 40px;  
     font-weight: lighter;
+    background-color: #9C8194;
 }
 
 .download {
@@ -451,9 +466,9 @@ position: absolute;
     line-height: 30px; 
     align-content: center;
     position: relative;
-     left: 85px; 
+     left: 15px; 
      right: 5px ;
-     top: 25%; 
+     top: 15%; 
      color:black;
 }
 
@@ -467,7 +482,7 @@ position: absolute;
   cursor: pointer;
   font-size: 20px;
   position: relative;
-  top:10%;
+  left:600px;
 }
 /* Darker background on mouse-over */
 .btn:hover {
@@ -483,7 +498,6 @@ position: absolute;
   width:150px;
   height:59px;
   background-color: white;
-  float: left;
 }
 
 /*worksection body Css */

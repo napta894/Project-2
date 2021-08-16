@@ -3,19 +3,21 @@
 <head>
 <title>Napta Hag</title>
 <meta charset="utf-8" content="text/html;">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 <link rel="stylesheet" href="styles/styles.css">
-<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1,"/>
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">  
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="semantic/dist/semantic.min.js"></script>
+
 </head>
 <body>
 <!--navigation section-->
 <header>
+<div class="container-fluid p-0">
 <div class="wrapper">
  <div class="navbar"> 
    <div class="logo">
@@ -24,26 +26,28 @@
        </svg>
     </div>
     <nav>
+      <div class="container-fluid">
         <ul>
           <li ><a href='index.html'><span id="home"></span>Home</a></li>
           <li ><a href='about.html'><span id="about"></span>About</a></li>
           <li ><a href='Portfolio.html'><span id="work"></span>Portfolio</a></li>
-          <li ><a href='contactme.html'><span id="contact"><span>Contact</a></li>
-        </ul>
+          <li ><a href='contact.html'><span id="contact"><span>Contact</a></li>
+          </ul>
+    </div>
     </nav>
   </div>
 </div>
-</header>
-<!--main page-->
-<main>
+</div>
   <div id="homepage">
     <div class="wrapper">
-     <h1 class="mainh1">Napta Hag</h1>
+     <h1 class="mainh1">Hello, I am Napta Hag</h1>
      <h2 class="mainh2">Front End Developer/UI Designer</h2>
      <h3 class="mainh3">“Creativity is intelligence having fun.”-Albert Eistein</h3>
    </div>
   </div>
-</main>
+</div>
+</header>
+<main>
 <!--about me section-->
 <section>
   <p style="page-break-after: always;">&nbsp;</p>
@@ -103,15 +107,13 @@
    </div>
   </div>
 </section>
+</main>
 <!--footer-->
 <footer>
   <div class="footer">
     <div class="container">
     <table class="table"> 
       <tr>
-        <td>
-          <h2 class="footer_h2">Contact</h2>
-        </td>
         <td>
             <button class="behance button" onclick="window.open('https://https://www.behance.net/naptahagportfolios', '_blank')">
              <span class="iconify" data-inline="false" data-icon="ant-design:behance-outlined" style="position: relative; text-align:center; font-size: 30px;"></span>
@@ -141,6 +143,11 @@
    </table>
    </div>
   </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </footer>
 </body>
 </html>

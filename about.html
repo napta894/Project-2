@@ -4,6 +4,7 @@
 <title>About me</title>
 <meta charset="utf-8"content="text/html;">
 <link rel="stylesheet" href="styles/styles.css">
+  </script>
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </head>
@@ -20,26 +21,25 @@
 <li ><a href='index.html'><span id="home"></span>Home</a></li>
 <li ><a href='about.html'><span id="about"></span>About</a></li>
 <li ><a href='Portfolio.html'><span id="work"></span>Portfolio</a></li>
-<li ><a href='contactme.html'><span id="contact"></span>Contact</a></li>
+<li ><a href='contact.html'><span id="contact"></span>Contact</a></li>
 </ul>
 </nav>
 </div>
 </header>
 <!--about main page-->
 <div class="aboutme">
+    <img class="portrait" src="images/PORTRAIT.png" alt="portrait" height="20%" width="20%">
     <h1 class="aboutme_h1">About me</h1>
-    <br>
-   <div>
+    <br>  
     <p class="aboutme_p">
        I create websites and applications with creativity, usability and attention to details while having in mind all users. <br>
       I have experience in freelancing, digital marketing and coding on a variety of projects. 
       <br> I am based in London. I am excited to collaborate with you.</p>
-      <br>
-   </div>
-</div>
+  </div> 
 <!--resume section-->
 <div class="resume">
-  <h2 class="resume_h2"></h2>Resume</h2>
+  <h2 class="resume_h2">
+  </h2>Resume</h2>
 </div>
 <!--skills section-->
 <div class="container1">
@@ -47,7 +47,7 @@
     <tr >
       <td class="hardskills">Hard Skills</td>
       <td>
-        <span class="fa-stack fa-1x">
+        <span class="fa-stack fa-1x"> 
         <i class="fas fa-circle" id="css"><span class="iconify" data-inline="false" data-icon="ci:css3" style="font-size: 70px"></span></i>
         </span>
       </td>
@@ -97,14 +97,16 @@
     <tr>
   </table> 
   <!--download resume-->
-  <br><br><br>
-  <p class="info">For more information download the pdf resume below.</p>
+  <section>
+  <p class="info">Download Resume</p>
   <div>
       <span class="fa-stack fa-1x"></span>
-       <h2 class="download">Download</h2>
-        <button class="btn"> <span class="iconify" data-inline="false" data-icon="entypo:download" style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>  
+       <h2 class="download"></h2>
+        <button class="btn" onclick="window.open('Files/NAPTA HAG resume.pdf', '-blank')" download="NaptaHagResume">
+        <span class="iconify" data-inline="false" data-icon="entypo:download" style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>
       </span>
   </div>
+</section>
 </div>  
 <!--footer-->
 <footer>
@@ -112,9 +114,6 @@
     <div class="container">
       <table class="table">
         <tr>
-          <td>
-            <h2 class="footer_h2">Contact</h2>
-          </td>
           <td>
             <button class="behance button"
               onclick="window.open('https://https://www.behance.net/naptahagportfolios', '_blank')">
