@@ -12,7 +12,7 @@ font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif;
 font-weight: 600;
 }
 
-/*Navigation Section Css */
+/*Navigation Section Css */ 
 
 .navbar {
     background-color: none;
@@ -625,8 +625,10 @@ left:100px;
     line-height: 30px; 
     right:1250px; 
     top: 50px; 
+    bottom: 50px;
     margin-left:20px; 
-    color:black;
+    color:#9C8194;
+    padding: 30px 10px;
 }
 .portfolio_container h2 {
     font-family:Helvetica, sans-serif; 
@@ -717,4 +719,85 @@ left:100px;
 .portfolio_container h1 {
 font-size: 40px;
    }
+}
+/*Conctac page Css */
+
+.contact_container {
+    margin: 10px ;
+    padding: 5px 10px;
+    width: auto;
+    height: 1960px;
+}
+
+.contact {
+    font-family:Helvetica, sans-serif; 
+    font-size: 36px; 
+    align-content:right; 
+    line-height: 30px;
+    color:#9C8194;   
+    position: relative; 
+    left:650px;
+    margin-top: 20px;
+}
+
+.hire {
+    font-family:Helvetica, sans-serif; 
+    color: black;
+    font-size: 24px; 
+    font-weight: 200;
+    margin-top: 10px;
+    position: relative;
+    left: 680px;
+}
+ 
+.contactdata {
+    position: absolute;
+    float: left;
+    padding: 10px 10px;
+    top: 50px;
+    
+}
+
+.contactlist {
+    position: relative;
+    left: 520px;
+    
+}
+
+.form {
+    box-sizing: border-box;
+    position: relative;
+    left: 100px;
+    top:100px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+input[type=text]
+ {
+    padding:10px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.input_email  {
+      padding:10px; 
+      margin-bottom: 10px;
+      margin: 10px;
+      
+}
+
+.form-label {
+      padding:10px; 
+      margin-bottom: 25px;
+      margin: 10px;
+      width: 440px;    
+}
+
+input {
+    width: 50%;
+}
+input, textarea {
+    font-size: inherit;
+    font-family: inherit;
 }
