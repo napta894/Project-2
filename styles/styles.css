@@ -782,6 +782,7 @@ input[type=text]
     padding:10px;
     margin: 5px;
     margin-top: 10px;
+
 }
 
 .input_email  {
@@ -797,11 +798,13 @@ input[type=text]
       margin: 10px;
       width: 690px;
       height: 150px;
+      border: none;
 }
 
 input {
     width: 50%;
     display: block;
+    border: none;
 }
 input, textarea {
     font-size: inherit;
@@ -838,3 +841,10 @@ input:invalid {
 .btn5:hover {
     background-color: #9C8194;
 }
+
+/*small devices queries*/
+@media screen  and (max-width:350px) {
+    .container {
+        margin-left: var(--mb1) }
+
+    }
