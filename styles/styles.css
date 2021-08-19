@@ -6,11 +6,6 @@ html
      overflow-y: auto;
      scroll-behavior: smooth;
 }
-body { 
-background-color: #F3EFE9;
-font-family: sans-serif, Helvetica, -apple-system, 'Helvetica Neue', sans-serif; 
-font-weight: 600;
-}
 
 /*Navigation Section Css */ 
 
@@ -20,8 +15,16 @@ font-weight: 600;
     text-align: right;
     margin: 10px 15px 15px 10px;
     margin-top: 5px;
-    display: inline;
+    
 }
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: var(--font-semi);
+}
+
 .navbar a:hover {
     background-color:#9C8194;
     text-align: center;
@@ -50,22 +53,24 @@ padding: 16px;
 /*Main page Css */
 
 #homepage {
-    position: absolute;
+    position: relative;
+    width: auto;
     left: auto;
-    margin-top: 110px;
+    top: 200px;
+    display: -moz-inline-grid;
+    text-align: justify;
 }
 
 .mainh1 {
     font-family: Helvetica, sans-serif, serif; 
     font-size: 48px; 
-    align-content: center ; 
     font-weight: 700; 
     line-height: 30px; 
     position:relative; 
-    left: 480px; 
+    margin-left: 50px; 
+    display: flex;
     right: 30px; 
     top: 50% ;
-    bottom: 10% ; 
     color:black;
 }
 .mainh2 {
@@ -75,10 +80,10 @@ padding: 16px;
     font-weight:200; 
     line-height: 30px; 
     position:relative; 
-    left: 480px; 
+    margin-left: 50px;
     right: 30px; 
     top: 250% ;
-    bottom: 10% ; 
+    bottom: 20% ; 
     color:#9C8194
 }
 .mainh3 {
@@ -87,7 +92,7 @@ padding: 16px;
     font-style: italic; 
     line-height: 30px; 
     position:relative ; 
-    left: 480px; 
+    margin-left: 50px;
     right: 30px; 
     top: 450% ;
     bottom: 0% ; 
@@ -133,15 +138,7 @@ padding: 16px;
     left: 350px;
     top: 0px;
 }
-.container {
-        border: none;
-        padding: 0px;
-        position: relative;
-        left: 500px;
-        top: 10px;
-        bottom:200px;
-        align-items: center;  
-}
+
 .button {
     padding: 9px 9px;
     font-size: 10px; 
@@ -202,26 +199,17 @@ p {
     color:black
 }
 
-.wrapper {
-    margin: 20px auto;
-    padding: 20 10px;
-    width: auto;
-    height: auto;
-}
-.clear {
-    clear: both;
-}
+
 .about {
-position: absolute;
-width: auto;
-left: 0px;
-right: 0%;
-top: 750px;
-bottom: 0%;
+position: relative;
+width: 100%;
+top: 250px;
 border: none;
 height: 600px;
 background-color: white;
+display: -moz-inline-grid;
 }
+
 .btn1 {
   border-color: #9C8194;
   border-style: solid;
@@ -299,11 +287,6 @@ align-content: center;
     padding: 50px;
      color:#9C8194
 }
-   .container1 {
-     position: relative;
-     left: 25px;
-     bottom:40px;
-   }
 
    .table1 {
        width: 100%;
@@ -775,6 +758,7 @@ font-size: 40px;
     font-size: 24px;
     font-weight: bold;
     display: block;
+
 }
 
 input[type=text]
@@ -840,6 +824,78 @@ input:invalid {
 }
 .btn5:hover {
     background-color: #9C8194;
+}
+
+/*General Variables*/
+:root {
+    --clr-primary-300:#F3EFE9;
+    --clr-primary-400:  #9C8194;
+
+    --clr-neutral-900: black;
+    --clr-neutral-100: #fff;
+
+    --ff-primary: helvetica , sans-serif;
+    --ff-accent: -apple-system, 'Helvetica Neue', sans-serif; 
+
+}
+*,
+*::before,
+*::after  {
+    box-sizing:  border-box;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:  Helvetica, sans-serif; 
+    font-weight: 200;
+    --normal-font-size: 0.938rem;
+    line-height: 1,6;
+    background-color:#F3EFE9;
+
+}
+
+
+h1, h2,h3 p {
+    margin:0;
+}
+
+h1,h2,h3 {
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    line-height: 1;
+}
+
+.section {
+    padding: 1.5rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-light {background-color: var(--clr-primary-300);}
+.bg-primary {background-color: var(--clr-neutral-100);}
+.bg-dark {background-color: var(--clr-neutral-900);}
+
+.container {
+    margin-inline: auto;
+    width: min (90%, 70.5rem);
+}
+
+.conttainer--narrow {
+    max-width: 50rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
 
 /*small devices queries*/
