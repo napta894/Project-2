@@ -16,7 +16,7 @@
 </head>
 <body>
   <header>
-  <div>
+  <div id="menu-pc">
     <div class="container-fluid p-0">
         <div class="wrapper">
             <div class="navbar">
@@ -39,15 +39,26 @@
                     </div>
                 </nav>
             </div>
-        </div>
     </div> 
-</div>   
-    </header>
+</div>
+<div id="menu-mobile">
+     <input type="checkbox" class="navbar-toggler">
+      <ul class=menu>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a href='Portfolio.html'>Portfolio</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+      </ul>
+        </div> 
+</div>  
+
+</header>
+
 <!--mainpage-->
 <section class="container">
   <div id="homepage">
-    <div class="container container--narrow">
-     <h1 class="mainh1">Hello, I am Napta Hag</h1> <br>
+    <div class="container box-wrapper">
+     <h1 class="mainh1">Hello, I am Napta Hag</h1><br>
      <h2 class="mainh2">Front End Developer/UI Designer</h2> <br>
      <h3 class="mainh3">“Creativity is intelligence having fun.”-Albert Eistein</h3>
    </div>
@@ -55,33 +66,29 @@
 </section>
 <!--about me section-->
 <section class="container">
-<div class="about">
-  <div class="wrapper">
-    <h1 class="abouth1">About me</h1>
-    <br>
-    <p class="aboutp">
+<div id="aboutsection"> 
+  <h1 class="about-h1">About me</h1> <br>
+<p class="aboutp">
     I create websites and applications design with creativity, usability and attention to details while having in mind all users. I have experience in freelancing, digital marketing and coding on a variety of projects. 
     I am based in London. I am excited to collaborate with you.</p>
-    <br><br><br>
+    <br><br>
     <button class="btn1"  onclick="location.href= 'about.html';"> See more </button>
-  </div>
 </div>
 </section>
 <!--work section-->
 <section class="container">
-<div class="work">
-  <div class="wrapper">
+<div id="work" class="work">
+  <div class="container-fluid container--narrow">
+    <h1 class="workh1">Portfolio</h1>
 <!--boxcontainer-->
    <div class="box-wrapper">  
-     <h1 class="workh1">Portfolio</h1>
-     <br><br>
      <div class="scrolling-wrapper-flexbox">
        <div class="item">
         <div id="box1"> 
         <svg width="500" height="380" viewBox="-52 0 392 380" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="390.069" height="378.016" rx="7.5" fill="#C4C4C4" fill-opacity="0.25" stroke="black"/>
         </svg>
-          <h2 class="box1_h1">Web design project</h2> 
+          <h2 class="box1_h1">Web design projects</h2> 
           </div>
         </div>
        <div class="item">
@@ -89,7 +96,7 @@
         <svg width="500" height="380" viewBox="0 0 392 380" fill="none" xmlns="http://www.w3.org/2000/svg"> 
          <rect width="390.069" height="378.016" rx="7.5" fill="#C4C4C4" fill-opacity="0.25" stroke="black"/>
         </svg> 
-        <h2 class="box2_h2">Projects</h2>
+        <h2 class="box2_h2">UI Designs</h2>
         </div>
       </div>
       <div class="item">
@@ -97,7 +104,7 @@
           <svg width="500" height="380" viewBox="0 0 392 380" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="390.069" height="378.016" rx="7.5" fill="#C4C4C4" fill-opacity="0.25" stroke="black" />
           </svg>
-          <h2 class="box3_h2">landing pages</h2>
+          <h2 class="box3_h2">Landing pages</h2>
           </div>
       </div>
      </div>
