@@ -95,6 +95,7 @@ body {
     right:0;
 }
 /*humberger Section Css */ 
+
 .li {
  list-style: none;
 }
@@ -131,6 +132,7 @@ body {
 
 .hamburger{
     position:absolute;
+
 }
 
 .navbar li{
@@ -171,7 +173,9 @@ body {
     transform: rotate(-45deg);
 }
 
-/*Navigation Section Css */ 
+.nav-toggle {
+    display:none;
+}
  .navbar {
      background-color: #F3EFE9;
      position: fixed;
@@ -210,6 +214,54 @@ body {
      background-color: var(--first-color-alt);
      color: white;
  }
+
+
+ @media only screen and (max-width:475px) {
+    .nav-toggle {
+        display: block;
+    }
+    .nav-pc {
+        display: none;
+    }
+ }
+
+
+/*Navigation Section Css */ 
+
+.nav-pc {
+    list-style: none;
+     display: flex; 
+     margin: 0 auto;
+     justify-content: center;
+           
+}
+
+.nav-pc ul {
+     display: flex;   
+     width:100%; 
+     list-style-type: none;
+      margin: 0;
+     padding: 0;     
+}
+
+
+.nav-pc a {
+     text-align: center;
+     font-family: Helvetica, sans-serif;
+     color: black;
+     text-decoration: none;
+     justify-content: space-between;
+     margin: 0;
+     padding: 2rem;
+     float: left;
+}
+
+.nav-pc a:hover {
+     background-position: 100%;
+     background-color: var(--first-color-alt);
+     color: white;
+}
+
 
 
 /*Main page Css */
@@ -310,9 +362,10 @@ body {
     padding-left: 18px;
 }
 .table {
-    width:5px; 
+    width:50px;
     border-spacing:5px; 
     padding:10px;
+    text-align: center;
 }
 
 .footer_h2 {
@@ -320,18 +373,6 @@ body {
     font-family: Helvetica, sans-serif;  
     font-weight:lighter; 
     text-align: center;
-}
-
-.contactme {
-    font-family: -apple-system,'Segoe UI','Helvetica Neue', sans-serif, sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    color: black;
-    text-align: left;
-    position: absolute;
-    float: left;
-    left: 350px;
-    top: 0px;
 }
 
 .button {
@@ -348,11 +389,7 @@ body {
 .button:hover {
     background-color: #9C8194;
 }
-.navigation-container {
-        margin-right: 50px;
-        margin-top: 10px; 
-        margin-left: 15px;
-}
+
 .btn {
        margin-left: 50px;
        border-color: #BDA6A2;
@@ -392,7 +429,7 @@ p {
 
 .about .about-box h2 {
     font-size: 2rem;
-    padding-bottom:1.5rem;
+    padding-bottom:1rem;
 }
 .aboutp {
     font-family:Helvetica, sans-serif; 
@@ -535,7 +572,6 @@ align-content: center;
    .table1 {
        width: 100%;
        border-spacing: 50px;
-       padding: 15px;
        position: relative;
        top:5px;
        
@@ -543,7 +579,6 @@ align-content: center;
 
    .tr {
        position: relative;
-       left:18px;
    }
 
     .td  {
@@ -801,8 +836,7 @@ position: absolute;
     font-size: 2.5rem; 
     font-weight:200; 
     line-height: 1.1; 
-    padding-top: 1.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     position: relative;  
     text-align: center;  
     color:#9C8194;
@@ -1064,7 +1098,7 @@ input:invalid {
 /*========== MEDIA QUERIES ==========*/
 
 /*========== 1 small ==========*/
-@media screen and (min-width: 576px) {
+@media screen only and (min-width: 460px) {
 
     .home__container,
     .about__container,
@@ -1094,6 +1128,10 @@ input:invalid {
             align-items: center;
             justify-self: center;
         
+    }
+
+    .nav-pc {
+        display: none;
     }
 }
 
@@ -1137,16 +1175,19 @@ input:invalid {
 
 /*========== 3  large  ==========*/
 
-@media screen and (min-width: 960px){
+@media screen  and (min-width: 1000px){
     .bd-container{
         margin-left: auto;
         margin-right: auto;
     }
 
-    .nav_toggle{
-            display: none;
-        }
-}
+    .nav-pc {
+        display: none;
+    }
+        
+
+    
+
 
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
