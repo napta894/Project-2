@@ -286,7 +286,7 @@ body {
 .home-content {
     height:100%;
     width: 100%;
-    padding-top: 15rem;
+    padding-top: 8rem;
     text-align: center;
 }
 
@@ -315,7 +315,7 @@ body {
 
 .mainh1 {
     font-family: Helvetica, sans-serif, serif; 
-    font-size: 2rem; 
+    font-size: 3rem; 
     font-weight: 700; 
     line-height: 2; 
     text-align: center;
@@ -1108,20 +1108,15 @@ input:invalid {
 /*========== Index media queries  ==========*/
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 
-    .wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: auto;
-    }
 
      #nav-pc {
          display: none;
      }
      #nav-toggle {
          display:block;
-         width: 100%;
+         width: 50%;
          text-align: right;
          padding: 1rem 2rem;
          font-size: 3rem;
@@ -1129,22 +1124,22 @@ input:invalid {
     
      html {
         font-size: 50%;
+        width: 100%;
 
     }
-    body{
+       body{
         margin: 0;
-        display: block;
+        padding: 0.5rem;
     }
 
-     .header .main .section .footer {
-         display:block;
+      .main .section .footer {
          flex-direction: column;
      }
 
      .main {
          width: 100%;
          margin-left: auto;
-         margin-right: 2rem;
+         margin-right: auto;
      }
 
      .logo-style {
@@ -1156,22 +1151,21 @@ input:invalid {
      }
 
 
-    .home {
+    #home {
         height:50vh;
+        margin-top: 0;
     }
 
     .home-content-text {
         width: auto;
-        margin-bottom: 40px;
     }
 
     .home-content {
-        padding: 1rem;
+        padding: 2rem;
     }
 
     .home-content-text h1 {
         font-size: 2rem;
-        width: 100%;
     }
 
     .mainh1 {
@@ -1180,6 +1174,7 @@ input:invalid {
 
     .mainh2 {
         display: inherit;
+        font-size: 3rem;
     }
 
     .mainh3 {
@@ -1188,16 +1183,18 @@ input:invalid {
 
     .home-content {
         font-size:2rem;
+        display: flex;
 
     }
 
     .scroll-down {
-        display: block;
+        display: none;
 
     }
     .section{
-        padding: 2rem 4rem 3rem 5rem;
+        padding:0;
         margin-top: 50%;
+        margin-bottom: 0;
     }
     
     .about {
@@ -1218,30 +1215,61 @@ input:invalid {
     .about .about-box p{
         font-size: 2rem;
     }
-
+    
+    
     .footer {
         padding:0 18rem 5rem 30rem;
         font-size: 1.7;
+        position: relative;
+        float: left;
+        display: block;
+        
 
     }
 }
 
 @media screen and (max-width:768px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+
     
+        .page-wrapper ,section {
+        flex-wrap: wrap;
+        margin-right: auto;
+        flex-direction: column;
+        grid-column: 2/4;
+    }
+ 
+
     html {
         font-size: 50%;
 
     }
     body{
         margin: 0;
+        padding: 1rem;
     }
 
     .nav-pc{
-        padding: 3.8rem 2.5em;
-        font-size: 2rem;
+        padding: 1rem 2rem;
+        font-size: 3rem;
 
     }
 
+    #nav-pc a {
+        font-size: 3rem;
+    }
+
+    .logo-style {
+        display:inline;
+        position: relative;
+        float: initial;
+        width:189px;
+        height:50px;
+    }
     .home {
         height:70vh;
 
@@ -1252,8 +1280,9 @@ input:invalid {
     }
 
     .home-content-text h1 {
-        font-size: 5rem;
-        line-height: 1.8;
+        font-size: 4rem;
+        line-height: 1;
+        margin-top: 0;
 
     }
 
@@ -1267,7 +1296,8 @@ input:invalid {
 
     }
     .section{
-        padding: 10rem 8rem 10rem 20rem;
+        padding: 7rem 8rem 10rem 1rem;
+        margin-bottom: 0;
     }
     
     .about {
@@ -1297,10 +1327,17 @@ input:invalid {
 
 }
 
+@media screen and (max-width:1024px) {
+ 
+  .body {
+      display:block;
+  }
+}
+
 
 /*========== Portfolio  media queries  ==========*/
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
 
  .portfolio { 
     padding: 10px;
@@ -1311,7 +1348,7 @@ input:invalid {
    }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px) {
     .portfolio {
         padding: 30px;
     }
@@ -1329,18 +1366,9 @@ input:invalid {
     }
 }
 
-@media screen and (max-width:1368px) {
+@media screen and (max-width:1200px) {
 .portfolio_projects {
     flex-direction: column;
      }  
 }
 
-
-/*========== Contact media queries  ==========*/
-
-@media screen and (max-width:450px) {
-    
-      .form-container {
-          padding:0 6rem 
-      }
-}
