@@ -59,6 +59,7 @@ body {
     background-color: #F3EFE9;
 }
 
+
 .wrapper {
     display:flex;
     flex-flow: row wrap;
@@ -1103,6 +1104,7 @@ input:invalid {
     background-color: #9C8194;
 }
 
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
@@ -1110,13 +1112,15 @@ input:invalid {
 
 @media screen and (max-width: 480px) {
 
-
+    .wrapper-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
      #nav-pc {
          display: none;
      }
      #nav-toggle {
          display:block;
-         width: 50%;
+         width: 50vh;
          text-align: right;
          padding: 1rem 2rem;
          font-size: 3rem;
@@ -1124,12 +1128,13 @@ input:invalid {
     
      html {
         font-size: 50%;
-        width: 100%;
+        width: 50vh;
 
     }
        body{
         margin: 0;
-        padding: 0.5rem;
+        padding: 0;
+        width: 100vh;
     }
 
       .main .section .footer {
@@ -1137,7 +1142,7 @@ input:invalid {
      }
 
      .main {
-         width: 100%;
+         width: 100vh;
          margin-left: auto;
          margin-right: auto;
      }
@@ -1146,8 +1151,8 @@ input:invalid {
         display:block;
         position: relative;
         float: initial;
-        width:189px;
-        height:50px;
+        width:189vh;
+        height:50vh;
      }
 
 
@@ -1183,8 +1188,6 @@ input:invalid {
 
     .home-content {
         font-size:2rem;
-        display: flex;
-
     }
 
     .scroll-down {
@@ -1201,32 +1204,34 @@ input:invalid {
         height:100%;
     }
     .about .about-box {
-        width: 50%;
+        width: 50vh;
     }
 
     .about .about-box:nth-child(2) {
-     margin-top: 5rem;
+     margin-top: 2rem;
+     margin-left: 5rem;
     }
 
     .about-btn .btn {
-     margin:10px 0 0 0;
+     margin:10px 0 0 20px;
     }
 
     .about .about-box p{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
     
     .footer {
-        padding:0 18rem 5rem 30rem;
+        padding:0 9rem 5rem 9rem;
         font-size: 1.7;
         position: relative;
-        float: left;
-        display: block;
-        
-
+        float: left;    
     }
 }
+
+/*========== ABOUT media queries  ==========*/
+
+
 
 @media screen and (max-width:768px) {
 
