@@ -42,7 +42,8 @@
 
 *, *::before, *::after {
     box-sizing: border-box;
-
+    margin: 0;
+    padding:0;
 }
 
 html
@@ -73,7 +74,7 @@ body {
 }
 
 .section {
-    padding: 10rem 18rem 10rem 30rem;
+    padding: 0px;
     width: 100%;
     height: 100vh;
 }
@@ -535,205 +536,58 @@ p {
 
 /*Aboutme page Css */
 
-.portrait {
-    padding: 25px;
-    align-content: center;
-    position: relative;
-    left: 440px;
-    border-radius: 5%;
+
+.container {
+    width: 100vh;
+    display: block;
+    margin:auto;
+    margin-top: 100px;
+    font-size: 100%;
 }
- .aboutme {
-background:none;
-color:black;
-position: relative;
-bottom: 70px;
-left: 40px;   
- }
+
+.content-section {
+    float:left;
+    width: 55%;
+}
+
+.image-section {
+    float:right;
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 70px;
+    padding: 10px;
+    justify-content: left;
+}
+
+.content-section .title {
+    font-size: 28px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+
+}
 
 .aboutme_h1 {
     font-family:Helvetica, sans-serif; 
-    font-size: 40px; 
-    align-content:right; 
-    line-height: 30px; 
-    position: relative; 
-    left: 10px; 
-    right: 10px ; 
-    top: 350%; 
-    bottom:40%; 
+    font-size: 3rem; 
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     color:#9C8194;
 }
 
 .aboutme_p {
    font-family:Helvetica, sans-serif; 
    font-size: 24px; 
-   align-content:right; 
+   text-align: justify;
    font-weight:200; 
-   line-height: 30px; 
-   position: relative; 
-   left: 10px; 
-   right: 10px; 
-   top: 450% ;
-   bottom: 50% ; 
-}
-
- .resume {
-background:none;
-color:#9C8194;
-font-size: 36px;
-position: relative;
-left: 40px;  
-align-content: center;
- }
-
-.resume_h1 {
-    font-family:Helvetica, sans-serif; 
-    font-size: 36px; 
-    font-weight:200px; 
-    line-height: 30px; 
-    position: relative;
-     left: 50px; 
-     right: 5px ;
-    padding: 50px;
-     color:#9C8194
-}
-
-   .table1 {
-       width: 100%;
-       border-spacing: 50px;
-       position: relative;
-       top:5px;
-       
-   }
-
-   .tr {
-       position: relative;
-   }
-
-    .td  {
-    font-family: Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
-    }
-
-    i {
-  background-color: #9C8194;
-  display:inline;
-  border-radius: 50%;
-  border: none;
-  padding: 10px;
-  position: relative;
-  left: 100px;
-  top: 5px;
-}
-    .hardskills {
-        position: relative;
-        font-family: Helvetica, sans-serif;
-        font-size: 24px;
-        left:15px;
-        top: 5px;
-    }
-
-
-#html {
-  position: absolute;
-  top: 30px;
-  left:230px;
-
-}
-
-#css {
-  position: absolute;
-  left: 350px;
-  top: 30px;
-}
-#javascript {
-  position: absolute;
-  left: 490px;
-  top: 30px;
-}
-
-#cloud{
- 
-  position: absolute;
-  left: 630px;
-  top: 30px;
-
-}
-
-#react {
-  position: absolute;
-  left: 770px;
-  top: 30px;
-}
-
-#figma {
- 
-  position: absolute;
-  left: 910px;
-  top: 30px;
-}
-    
-.tr {
-    position: relative;
-    top: 50px;
-
-}
-.softskills {
-        position: absolute;
-        font-family: Helvetica, sans-serif;
-        font-size: 24px;
-        left:5px;
-        top: 5px;
-}
-
-
-.rectangle {
-  height: 50px;
-  width: 190px;
-  border-radius: 5px;
-  padding: 15px;
-  background-color:#9C8194;
-}
-
-#empathy {
-position: absolute;
-  top: 5px;
-  left: 200px;
-  width: 140px;
-  height: 25px;
-  padding: 5px;
-  text-align: center;
-}
-
-#creativity {
-position: absolute;
-  top: 5px;
-  left: 380px;
-  width: 140px;
-  height: 25px;
-  padding: 5px;
-  text-align: center;
-}
-
-
-#problemsolving {
-  position: absolute;
-  left: 560px;
-  top: 5px;
-  width: 140px;
-  height: 25px;
-  padding: 5px;
-  text-align: center;
-}
-
-#communication {
-  position: absolute;
-  left: 740px;
-  top: 5px;
-  width: 140px;
-  height: 25px;
-  padding: 5px;
-  text-align: center;
+   line-height: 1.5; 
+   position: relative;    
 }
 
 /*download resume Css */
@@ -741,57 +595,32 @@ position: absolute;
 .info {
     font-family:Helvetica, sans-serif; 
     color: black;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
     font-size: 24px;  
     position: relative; 
     margin-bottom: 10px;
-    left: 40px;  
-    font-weight: lighter;
-}
-
-.download {
-    font-family:Helvetica, sans-serif; 
-    font-size: 24px; 
-    font-weight: normal;
-    line-height: 30px; 
-    align-content: center;
-    padding: 5px;
-    position: relative;
-     left: 15px; 
-     right: 5px ;
-     top: 15%; 
-     color:black;
-}
-
-/* Style buttons */
-.btn {
-  background-color: #9C8194;
-  border: none;
-  width: 180px;
-  color: black;
-  padding: 18px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  position: relative;
-  left:600px;
-}
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: #776571;
+    padding: 0 0; 
 }
 
 .btn4 {
-  border-color: #9C8194;
   border-style: solid;
-  background-color: none;
   font-size: 18px;
-  margin-left: 100px;
-  width:150px;
-  height:59px;
-  background-color: white;
+  cursor: pointer;
+  height:59px; 
+  width:180px;
+  background-color: #9C8194;
+  border-radius: 5px;
+  margin-top: 20px; 
+  padding: 5px 10px;
 }
 
-/*worksection body Css */
+.btn4:hover {
+  background-color: #776571;
+}
+
+
+/*worksection PAGE Css */
 
 
 .work {
