@@ -293,7 +293,7 @@ body {
 .home-content {
     height:100vh;
     width: 100%;
-    padding-top: 8rem;
+    padding-top: 15rem;
     text-align: center;
 }
 
@@ -354,6 +354,12 @@ body {
     padding:0 1.4rem;
 }
 
+.scroll-down {
+    font-size: 1rem;
+    font-size: 0.5rem;
+    letter-spacing: 0.5rem;
+    margin-top: 15rem;
+}
 
 /*Footer Css */
 
@@ -528,14 +534,14 @@ p {
 
 /*Aboutme page Css */
 
-
 .container {
     width: 100%;
     display: block;
     margin:auto;
     margin-top: 100px;
     font-size: 100%;
-    padding: 2rem;
+    padding: 3rem;
+    margin: 3rem;
 }
 
 .content-section {
@@ -549,10 +555,11 @@ p {
 }
 
 .image-section img {
-    width: 50vh;
-    margin-top: 30%;
-    padding: 10px 10px 15px 15px;
-    height: 50vh;
+
+    border-radius: 50%;
+    margin-top: 10%;
+    padding: 40px 40px 15px 15px;
+
 
 }
 
@@ -567,7 +574,7 @@ p {
 
 .aboutme_h1 {
     font-family:Helvetica, sans-serif; 
-    font-size: 4rem; 
+    font-size: 3rem; 
     margin-top: 4rem;
     margin-bottom: 4rem;
     color:#9C8194;
@@ -608,10 +615,6 @@ p {
 .btn4:hover {
   background-color: #776571;
 }
-
-
-/*work section Css */
-
 
 .work {
     position: relative;
@@ -662,8 +665,8 @@ p {
     margin-top: 40px;
     flex: 1 1 auto;
     margin: 10 12 10 12;
-    
 }
+
 .item {
     position: relative;
     display: flex;
@@ -687,8 +690,6 @@ p {
     height:auto;
 }
 
-
-
 .work-h1 {
     font-family:Helvetica, sans-serif; 
     font-size: 3rem; 
@@ -699,8 +700,6 @@ p {
     text-align: center;  
     color:#9C8194;
 }
-
-
 
 .btn2 {
     border-color: #9C8194;
@@ -720,30 +719,31 @@ p {
     padding-top: 5rem;
 }
 
-/*Portfolio Css */
+
+/*Portfolio Page Css */
+
 
 .portfolio {
     background:none;
     color:black;
     position: relative;
-    bottom: 100px;
+    bottom: 10px;
     left: 40px;
 }
 .portfolio_container {
-    padding-top: 160px;
+    padding-top: 80px;
     padding-bottom: 20px;
     padding-left: 100px;
 }
 .portfolio_container h1 {
     font-family:Helvetica, sans-serif; 
-    font-size: 36px;  
+    font-size: 3rem;  
     line-height: 30px; 
-    right:1250px; 
+    text-align: center;
     top: 50px; 
-    bottom: 50px;
-    margin-left:20px; 
+    bottom: 100px;
     color:#9C8194;
-    padding: 30px 10px;
+    padding: 70px 10px;
 }
 .portfolio_container h2 {
     font-family:Helvetica, sans-serif; 
@@ -756,6 +756,8 @@ p {
 .portfolio_main {
     display: grid;
     grid-template-columns: 2fr 2fr;
+    padding: 4px;
+    margin-bottom: 30px;
 }
 .portfolio_img {
     height: 100%;
@@ -799,71 +801,122 @@ p {
     padding: 24px 32px;
 }
 .portfolio_projects img {
-    padding: 0 8px;
+    padding: 10px 8px;
     width: 100%;
     height: 100%;
+    margin-top: 50px;
 }
+
+
 
 /*Contact page Css */
 
-.contact_container {
-    margin: 10px ;
-    padding: 5px 10px;
-    width: auto;
-    height: 1960px;
+.contact {
+    position:relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content {
+    max-width: 800px;
+    text-align: center;
 }
 
-.contact {
+.content-contact {
     font-family:Helvetica, sans-serif; 
-    font-size: 36px; 
-    align-content:right; 
+    font-size: 2rem ; 
+    align-content:center; 
     line-height: 30px;
     color:#9C8194;   
     position: relative; 
-    left:650px;
-    margin-top: 20px;
 }
 
-.hire {
+.container1 {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+
+}
+
+.contactInfo {
     font-family:Helvetica, sans-serif; 
-    color: black;
-    font-size: 24px; 
-    font-weight: 200;
-    margin-top: 10px;
-    position: relative;
-    left: 680px;
-}
- 
-.contactdata {
-    position: absolute;
-    float: left;
-    padding: 10px 10px;
-    top: 50px;
-    
+    font-size: 1rem ; 
 }
 
-.contactlist {
-    position: relative;
-    left: 520px;
-    
-}
+.container1 .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+ }
 
-.form {
-    box-sizing: border-box;
-    position: relative;
-    left: 200px;
-    top:50px;
+ .container1 .contactInfo .box {
+     position:relative;
+     padding: 20px 0 30px;
+     display: flex;
+ }
+
+  .container1 .contactInfo .box .text {
+      display:flex;
+      margin-left: 20px;
+      font-size:1rem;
+      flex-direction: column;
+  }
+
+  .container1 .contactInfo .box .h3 {
+
+      font-weight:300;
+  }
+
+.contacth1 {
+    font-size: 2rem;
     font-family: Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    display: block;
+    justify-content: center;
+}
+
+.contacth3 {
+    font-size: 1.5rem;
+    font-family: Helvetica, sans-serif;
+    color:black;
+    justify-content: center;
+}
+
+.contactForm {
+     width: 40%;
+     padding: 40px;
+     box-sizing: border-box;
+}
+ .contactForm h2 {
+    font-size: 2rem;
+    color: #9C8194;
+    font-weight: 300;
+
+}
+
+.contactForm .inputBox {
+    position:relative;
+    width: 100%;
+    margin-top:10px;
+
+}
+
+.contactForm .inputBox input {
+   width:100%;
+   padding: 5px 0;
+   font-size: 1rem;
+   margin: 10px 0;
 
 }
 
 input[type=text]
+
  {
     padding:10px;
-    margin: 5px;
+    margin: 10px 5px;
     margin-top: 10px;
 
 }
@@ -871,17 +924,16 @@ input[type=text]
 .input_email  {
       padding:10px; 
       margin-top: 10px;
-      margin: 10px;
+      margin: 10px 0;
       width: 50%;
       
 }
 
 .textarea {
-      padding:10px; 
-      margin: 10px;
-      width: 690px;
-      height: 150px;
+      padding:5px; 
+      margin: 10px 0;
       border: none;
+      width: 100%;
 }
 
 input {
@@ -889,10 +941,7 @@ input {
     display: block;
     border: none;
 }
-input, textarea {
-    font-size: inherit;
-    font-family: inherit;
-}
+
 
 .required label:after {
  
@@ -904,16 +953,23 @@ input:invalid {
   border: 2px #9C8194;
 }
 
+.contactForm .inputBox input [type="submit"] {
+    width: 100px;
+    cursor:pointer;
+    padding:10px;
+    font-size: 2rem;
+
+}
 .btn5 {
   border-color: #9C8194;
   border-style: solid;
   background-color: none;
-  font-size: 24px;
-  font-family: Helvetica, sans-serif;
+  font-size: 3rem;
   font-weight: lighter;
+  font-family: Helvetica, sans-serif;
   margin-left: 100px;
   width:250px;
-  height:80px;
+  height:50px;
   background-color: white;
   text-align: center;
   color: black;
@@ -1162,22 +1218,27 @@ input:invalid {
 html {
         font-size: 50%;
         width: 50vh;
-        height: 80vh;
 
     }
        body{
         margin: 0;
         padding: 0;
         width: 100vh;
+
     }
+    
 
 .wrapper-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 
-.section {
-    margin-top: var(--z-fixed);
-}
+    .main .section .footer {
+         flex-direction: column;
+     }
+
+    .table {
+    align-content: center;
+    }
 
 .container {
     width: 100vh;
@@ -1263,9 +1324,26 @@ html {
 
 }
 
-/*========== Portfolio  media queries  ==========*/
+/*========== Portfolio page media queries  ==========*/
 
 @media screen and (max-width:480px) {
+
+html {
+        font-size: 50%;
+        width: 50vh;
+
+    }
+       body{
+        margin: 0;
+        padding: 0;
+        width: 100vh;
+
+    }
+
+img {
+  width: 100%;
+  height: auto;
+}
 
  .portfolio { 
     padding: 10px;
@@ -1274,14 +1352,78 @@ html {
 .portfolio_container h1 {
      font-size: 40px;
    }
+
+.portfolio_projects {
+    display:none;
+}
+
+}
+
+@media screen and (max-width:768px) {
+
+    .nav-pc{
+    padding: 1rem 2rem;
+    font-size: 4rem;
+
+    }
+
+    #nav-pc a {
+        font-size: 3rem;
+    }
+
+    .logo-style {
+        display:inline;
+        position: relative;
+        float: initial;
+        width:189px;
+        height:50px;
+    }
+    .portfolio_projects {
+        display: none;
+    }
+
+    img {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width:1024px) {
+
+    html {
+    font-size: 50%;
+
+    }
+    body{
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .nav-pc{
+    font-size: 3rem;
+
+    }
+
+    #nav-pc a {
+        font-size: 4rem;
+    }
+
+    .logo-style {
+        display:inline;
+        position: relative;
+        float: initial;
+        width:189px;
+        height:50px;
+    }
+
+    img {
+    width: 100%;
+   height: auto;
+    }
     .portfolio {
-        padding: 30px;
+        padding: 20px;
     }
     .portfolio_container h1 {
-  font-size: 80px;
+       font-size: 50px;
     }
     .portfolio_main {
         grid-column: 2fr;
@@ -1292,6 +1434,11 @@ html {
     .portfolio_right {
         margin-bottom: 60px;
     }
+
+    .portfolio_main {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width:1200px) {
@@ -1300,3 +1447,35 @@ html {
      }  
 }
 
+/*========== Contact Page media queries  ==========*/
+@media screen and (max-width:480px) {
+    .contact {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen  and (max-width:768px) {
+    .contact {
+        padding:50px;
+        font-size: 2rem;
+    }
+
+    .box {
+        font-size: 2rem;
+    }
+
+    .container1 {
+        flex-direction: column;
+    }
+
+    .container1 .contactInfo {
+        margin-bottom: 40px;
+        font-size: 2rem;
+    }
+
+    .container1 .contactForm{ 
+        width: 100%;
+    }
+
+}
