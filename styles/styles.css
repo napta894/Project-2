@@ -246,6 +246,7 @@ body {
 /*Navigation Section Css */ 
 
 #nav-pc {
+    
     list-style: none;
      display: flex; 
      margin: 0 auto;
