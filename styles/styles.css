@@ -246,7 +246,7 @@ body {
 /*Navigation Section Css */ 
 
 #nav-pc {
-    
+
     list-style: none;
      display: flex; 
      margin: 0 auto;
@@ -1246,7 +1246,7 @@ html {
     height: auto;
     display: block;
     margin:auto;
-    padding-top:40px;
+    padding-top:0;
     font-size: 100%;
 }
 
@@ -1272,12 +1272,19 @@ html {
      font-size: 1rem;
  }
 
+ .section {
+     margin-top:0;
+ }
+
  .content-section .content .btn4 {
      text-align: center;
+     padding:0;
  }
 
  .footer {
-        display: var(--z-fixed);
+        margin-top:3rem;
+        position: relative;
+        float: left;
  }
  
 }
@@ -1347,7 +1354,7 @@ img {
 }
 
  .portfolio { 
-    padding: 10px;
+    padding: 5px;
   }
 
 .portfolio_container h1 {
