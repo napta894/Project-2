@@ -2,7 +2,7 @@
 
 Napta Hag Portfolio Website 
 
-This website is made to showcase my skills as Front-end developer and UI designer. The website showcases my personality as simple and modern style. 
+This website is made to showcase my skills as Front-end developer and UI designer. The website also expresses my personality as simple and modern style. 
 
 Main colours used: Venus (Reddish magenta) code: #9C8194 to highlight main features. 
 Merino (yellowish orange} code: #F3EFE9 as background and black for fonts and some features. 
@@ -18,9 +18,91 @@ My website is for current hiring employee and clients who requires services rega
 
 To help user digest information and have direct access of contact, I included a mini section of about me, portfolio gallery as preview of the services I offer.  Throughout the user journey map start by visiting the main page, where as a landing page the user see my name and what I do. Navigation links to direct to other pages ( about, portfolio and contact).
 
-As the user scroll down, there is about us section with description on me and visual percentage of my skills. The last section is the portfolio gallery . This section include three image showcasing the services that offers. Lastly, the user can see the footer with the social media buttons.
+As the user scroll down, there is about us section with description on me and visual percentage of my skills. The last section is the portfolio gallery. This section include three image showcasing the services that offers. Lastly, the user can see the footer with the social media buttons.
 
 Wireframes
+
+(see wireframes pages folder)
+
+Features
+
+1) All pages
+
+* Contact button directing the user to the actual page situated at the bottom with the footer
+* Humber button: navigation links for small screen users. 
+* Navigation links: direct the users to the other pages.
+
+2) Index.html 
+* Features indicates above
+* Scrollable page
+* See more button: This button directs the users to the portfolio page
+* Title animation: when landing to the page the title �Hello, I am Napta Hag� enter from the left.
+
+3) About.html 
+
+* Features indicates above
+* Download button: This button download resume directly and opens in another tab.
+
+4) Portfolio.html
+
+* Features indicates above
+* See more button: This button direct to the company website link
+* Gallery visuals
+
+5) Contact.html
+
+* Features indicates above
+* Form: The form enables the user to send direct message and fill their necessary data such as full name and address.
+* Form submit button: This button saves and send me data concerning the users.
+
+
+Tools
+
+* Figma
+* Vs code
+* Git Hub
+* Git (desktop ) 
+* Iconify (icons)
+* Html/ Css
+* Unsplash (images)
+
+
+Responsiveness tests
+
+Responsiveness is reported through media queries. Laptop, Tablet and Mobile are thoroughly tested using Google Chrome's Development tools.
+
+Important elements that are modified for flexibility reasons are:
+
+* Index.html - the tablet and mobile size: About section are positioned one above other.
+* About.html - the tablet and mobile size: The picture was deleted.
+* Portfolio html -tablet and small screen size:  one sample of work is shown in the tablet version.
+* Contact html -the tablet and phone size:  contact section is positioned at top while the form at the bottom.
+
+Resources 
+ 
+Repository:
+
+https://github.com/napta894/napta894.github.io
+
+Files:
+
+- IMAGES:
+
+ https://unsplash.com/s/photos/digital-marketing
+
+
+Aknowledgments
+
+I want to thank my mentor Sunny Hebbar for the constant assistance throughout the project.
+
+
+
+
+
+
+
+
+
 
 
 
