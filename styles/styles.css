@@ -742,7 +742,7 @@ p {
     font-size: 3rem;  
     line-height: 30px; 
     text-align: center;
-    top: 50px; 
+    top: 20px; 
     bottom: 100px;
     color:#9C8194;
     padding: 70px 10px;
@@ -751,7 +751,6 @@ p {
     font-family:Helvetica, sans-serif; 
     font-weight: normal;
     font-size: 24px;  
-    right:1250px; ; 
     margin-left:20px; 
     color: #9C8194;
 }
@@ -1444,10 +1443,11 @@ img {
    height: auto;
     }
     .portfolio {
-        padding: 20px;
+        padding: 10px;
     }
     .portfolio_container h1 {
        font-size: 50px;
+       text-align: center;
     }
     .portfolio_main {
         grid-column: 2fr;
@@ -1476,7 +1476,7 @@ img {
 @media screen and (max-width:480px) {
 
     .contact {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .content-contact {
@@ -1495,11 +1495,14 @@ img {
     color: #9C8194;
     font-weight: 300;
     }
-    /* Chrome/Opera/Safari */
+    
     ::-webkit-input-placeholder {  
-    font-size: 2rem;
+    font-size: 1.2rem;
+    }
 
-}
+    .inputBox {
+    font-size: 2rem;
+    }
 
 }
 
