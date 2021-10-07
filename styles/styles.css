@@ -697,7 +697,6 @@ p {
     font-weight:200; 
     line-height: 1.1; 
     margin-bottom: 2rem;
-    position: relative;  
     text-align: center;  
     color:#9C8194;
 }
@@ -848,7 +847,7 @@ p {
 
 .contactInfo {
     font-family:Helvetica, sans-serif; 
-    font-size: 1rem ; 
+    font-size: 2rem ; 
 }
 
 .container1 .contactInfo {
@@ -866,7 +865,7 @@ p {
   .container1 .contactInfo .box .text {
       display:flex;
       margin-left: 20px;
-      font-size:1rem;
+      font-size:1.5rem;
       flex-direction: column;
   }
 
@@ -876,16 +875,17 @@ p {
   }
 
 .contacth1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Helvetica, sans-serif;
     justify-content: center;
 }
 
 .contacth3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Helvetica, sans-serif;
     color:black;
-    justify-content: center;
+    text-align: center;
+    padding: 1rem;
 }
 
 .contactForm {
@@ -894,7 +894,7 @@ p {
      box-sizing: border-box;
 }
  .contactForm h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #9C8194;
     font-weight: 300;
 
@@ -1214,9 +1214,11 @@ input:invalid {
         font-size: 2rem;
     }
 
+
     .footer {
-        padding:0 10rem 5rem 30rem;
-        font-size: 1.7;
+        padding:5rem 10rem 5rem 10rem;
+        font-size: 2rem;
+        display: block;
         text-align:center;
         width: 100%;
     }
@@ -1300,9 +1302,7 @@ html {
  }
 
  .footer {
-        margin-top:3rem;
-        position: relative;
-        float: left;
+        display:none;
  }
  
 }
@@ -1343,9 +1343,7 @@ html {
  }
 
  .footer {
-        padding:0 10rem 5rem 30rem;
-        font-size: 1.7;
-        display: var(--z-fixed);
+        display:none;
  }
 
 }
@@ -1474,34 +1472,74 @@ img {
 }
 
 /*========== Contact Page media queries  ==========*/
+
 @media screen and (max-width:480px) {
+
     .contact {
-        font-size: 3rem;
+        font-size: 4rem;
     }
+
+    .content-contact {
+        font-size: 4rem;
+    }
+
+    .container1 .contactInfo .box .text {
+      display:flex;
+      margin-left: 20px;
+      font-size:2.5rem;
+      flex-direction: column;
+    }
+
+     .contactForm h2 {
+    font-size: 3rem;
+    color: #9C8194;
+    font-weight: 300;
+    }
+    /* Chrome/Opera/Safari */
+    ::-webkit-input-placeholder {  
+    font-size: 2rem;
+
 }
 
+}
 
 @media screen  and (max-width:768px) {
     .contact {
         padding:50px;
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     .box {
-        font-size: 2rem;
+        font-size: 4rem;
+    }
+
+    .contactInfo .text {
+        font-size: 4rem;
     }
 
     .container1 {
         flex-direction: column;
+        font-size: 3rem;
+
     }
 
     .container1 .contactInfo {
         margin-bottom: 40px;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .container1 .contactForm{ 
         width: 100%;
     }
 
+    .container1 .contactInfo .box .text {
+      display:flex;
+      margin-left: 20px;
+      font-size:2.5rem;
+      flex-direction: column;
+     }
+
+     /* Chrome/Opera/Safari */
+    ::-webkit-input-placeholder { 
+    font-size: 2rem; }
 }
