@@ -84,6 +84,8 @@ Repository:
 
 https://github.com/napta894/napta894.github.io
 
+file:///Users/nana/Documents/GitHub/napta894.github.io/index.html
+
 Files:
 
 - IMAGES:
