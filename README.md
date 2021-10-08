@@ -65,6 +65,7 @@ Tools
 * Iconify (icons)
 * Html/ Css
 * Unsplash (images)
+* validator markup (https://validator.w3.org/#validate_by_upload)
 
 
 Responsiveness tests
