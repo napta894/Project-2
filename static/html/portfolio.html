@@ -3,7 +3,9 @@
 <head>
 <title>Napta Hag</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<!--style css-->
+<link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+<!--icons -->
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 <script type="text/javascript" src="scripts/scripts.js"></script>
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
@@ -12,7 +14,9 @@
 <script src="semantic/dist/semantic.min.js"></script>
 </head>
 
+<!--header-->
 <header>
+<!--logo-->
   <div class="logo">
     <svg class="logo-style" viewBox="0 0 189 23" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -22,35 +26,29 @@
   </div>
   <nav>
     <ul id="nav-pc">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
+      <a href="/static/html/index.html">Home</a>
+      <a href="/static/html/about.html">About</a>
+      <a href="/static/html/portfolio.html">Portfolio</a>
+      <a href="/static/html/contact.html">Contact</a>
     </ul>
   </nav>
-
-  <!--humberger toggle nav-->
-  <div id="nav-toggle">
-    <div class="hamburger">
-      <input type="checkbox">
-      <div class="hamburgerlines">
-        <span class="lines line1">
-
-        </span>
-        <span class="lines line2">
-
-        </span>
-        <span class="lines line3">
-        </span>
-      </div>
-      <ul class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="Portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </ul>
+<!--humberger toggle nav-->
+<div id="nav-toggle">
+  <div class="hamburger">
+    <input type="checkbox">
+    <div class="hamburgerlines">
+      <span class="lines line1"> </span>
+      <span class="lines line2"> </span>
+      <span class="lines line3"> </span>
     </div>
+    <ul class="navbar">
+      <a href="/static/html/index.html">Home</a>
+      <a href="/static/html/about.html">About</a>
+      <a href="/static/html/portfolio.html">Portfolio</a>
+      <a href="/static/html/contact.html">Contact</a>
+    </ul>
   </div>
+</div>
 </header>
 
 <!--portfolio section-->
@@ -58,20 +56,21 @@
 <div class="portfolio">
   <div class="portfolio_container">
    <h1 class="portfolio_h1">Portfolio</h1>
-    <div class="portfolio_main">  
-      <div class="portfolio_left">
-        <img src="images/landpage.jpg" alt="portfolio_projects">
-      </div>
-      <div class="portfolio_right"> 
-      <h2>Web Design company</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cupiditate eos cumque enim incidunt quae odit. Amet similique autem rerum animi nisi! 
-         Rerum molestias corrupti ipsam cupiditate minima nostrum dolores.</p>
-        <button type="submit" color="secondary" class="btn3"  onclick="location.href='#';"> See more </button>
-      </div>
+   <div class="portfolio_main">  
+     <div class="portfolio_left">
+        <img src="/images/landpage.jpg" alt="portfolio_projects">
      </div>
+    <div class="portfolio_right"> 
+    <h2>Web Design company</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cupiditate eos cumque enim incidunt quae odit. Amet similique autem rerum animi nisi! 
+         Rerum molestias corrupti ipsam cupiditate minima nostrum dolores.</p>
+      <button type="submit" color="secondary" class="btn3"  onclick="location.href='#';"> See more </button>
+    </div>
+   </div>
   </div>
 </div>
 </section>
+
 <!--footer-->
 <footer class="footer" id="footer">
   <table class="table">
@@ -110,7 +109,7 @@
     </tr>
   </table>
   <hr>
-  <p>&copy; 2021. All right Reserved</p>
+<p>&copy; 2021. All right Reserved</p>
 </footer>
 </body>
 </html>
