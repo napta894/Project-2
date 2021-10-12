@@ -135,7 +135,7 @@ Validator markup allowed the validation of the coding.
 
 ## Aknowledgments
 
-I want to thank my mentor Sunny Hebbar for the constant assistance throughout the project.
+I sincerely appreciate my mentor Sunny Hebbar for the constant assistance throughout the project.
 
 
 
