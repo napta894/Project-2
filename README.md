@@ -23,7 +23,7 @@ As the user scroll down, there is about us section with description on me and vi
 Wireframes
 
 Desktop screen: 
-* index-
+* [index-page.md](https://github.com/napta894/napta894.github.io/blob/8aaaf227aadc9064c20d572316d6c471eae1bae2/files/portfolio-wireframes%20/laptop/index-page.png)
 * about-
 * portfolio-
 * contact-
