@@ -1,21 +1,20 @@
 # README
 
-##Content##
+## Content ##
 
--[About the website]
--[UX]
--[Wireframes]
--[Features]
--[Tools]
--[Responsiveness Tests]
--[Resources]
--[Deployment]
--[Code Deployment]
--[Aknowldgments]
+-[UX] (https://github.com/napta894/napta894.github.io/blob/master/README.md#ux)
+-[Wireframes] (https://github.com/napta894/napta894.github.io/blob/master/README.md#wireframes)
+-[Features] (https://github.com/napta894/napta894.github.io/blob/master/README.md#features)
+-[Tools] (https://github.com/napta894/napta894.github.io/blob/master/README.md#tools)
+-[Responsiveness Tests] (https://github.com/napta894/napta894.github.io/blob/master/README.md#responsiveness-tests)
+-[Resources] (https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
+-[Deployment] (https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
+-[Code Validation] 
+-[Aknowldgments] (https://github.com/napta894/napta894.github.io/blob/master/README.md#aknowledgments)
 
 **About the Website** 
 
-This website is made to showcase my skills as Front-end developer and UI designer. The website also expresses my personality as simple and modern style. 
+This website purpose is to showcase my skills as Front-end developer and UI designer. The website also expresses my personality as simple and modern style. 
 
 Main colours used: Venus (Reddish magenta) code: #9C8194 to highlight main features. 
 Merino (yellowish orange} code: #F3EFE9 as background and black for fonts and some features. 
