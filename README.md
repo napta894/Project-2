@@ -22,7 +22,17 @@ As the user scroll down, there is about us section with description on me and vi
 
 Wireframes
 
-(see wireframes pages folder)
+Desktop screen: 
+* index-
+* about-
+* portfolio-
+* contact-
+
+Mobile screen: 
+* index-
+* about-
+* portfolio-
+* contact-
 
 Features
 
