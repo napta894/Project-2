@@ -119,17 +119,18 @@ https://github.com/napta894/napta894.github.io
 Github desktop was used to deploy the website.  Regular commit was done to the changes of the website.
 Deployment steps are followed in this way:
 
-1: Installing Git Hub Desktop. 
-2: Login in the website version of GitHub
-3: Clone the repository through Git Hub.
-4: Current Repository changes were  automatically updated.
-5: Add description summery and commit to Master.
-6: Pull the commit changes to the origin remote master (Github.com/napta894.github.io)
+1. Installing Git Hub Desktop. 
+2. Login in the website version of GitHub
+3. Clone the repository through Git Hub.
+4. Current Repository changes were  automatically updated.
+5. Add description summery and commit to Master.
+6. Pull the commit changes to the origin remote master (Github.com/napta894.github.io)
 
 
 ## Code Validation
 
-Validator markup allowed the validation of the coding. [validator markup] (https://validator.w3.org/#validate_by_input)
+Validator markup allowed the validation of the coding. 
+[validator markup] (https://validator.w3.org/#validate_by_input)
 
 
 ## Aknowledgments
