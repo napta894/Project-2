@@ -36,7 +36,7 @@ Mobile screen:
 * [portfolio page mobile](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/portfolio-page-%20mobile.png)
 * [contact page section 1](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-1.png)
 * [contact page section 2](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-2.png)
-* [prototypelanding page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/prototype-landing-page-mobile.jpg)
+* [prototype landing page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/prototype-landing-page-mobile.jpg)
 
 Features
 
