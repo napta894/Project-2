@@ -1112,6 +1112,10 @@ input:invalid {
      margin-left: 5rem;
     }
 
+    .box-wrapper {
+        display: flex;
+    }
+
     .about-btn .btn {
      margin:10px 0 0 10px;
     }
