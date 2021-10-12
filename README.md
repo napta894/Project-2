@@ -2,6 +2,7 @@
 
 ## Contents
 
+* [About]()
 * [UX](https://github.com/napta894/napta894.github.io/blob/master/README.md#ux)
 * [Wireframes](https://github.com/napta894/napta894.github.io/blob/master/README.md#wireframes)
 * [Features](https://github.com/napta894/napta894.github.io/blob/master/README.md#features)
@@ -11,7 +12,8 @@
 * [Deployment](https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
 * [Aknowldgments](https://github.com/napta894/napta894.github.io/blob/master/README.md#aknowledgments)
 
-**About the Website** 
+
+##About the Website
 
 This website purpose is to showcase my skills as Front-end developer and UI designer. The website also expresses my personality as simple and modern style. 
 
