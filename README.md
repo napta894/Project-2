@@ -1,6 +1,6 @@
 # README
 
-**Napta Hag Portfolio Website 
+**Napta Hag Portfolio Website** 
 
 This website is made to showcase my skills as Front-end developer and UI designer. The website also expresses my personality as simple and modern style. 
 
@@ -12,7 +12,7 @@ Font used: Helvetica Neue, Didot.
 Functionality:
 Users can contact me, see my cv, work done, and read about me.  Visitors can collect information about me such as email, social media and portfolio through Behance and Coding through Github.
 
-##UX
+##UX##
 
 My website is for current hiring employee and clients who requires services regarding web design, digital marketing and UI designs. As well any users interest in collaborations or inspiration. The website provides easy navigation and flowing between pages and the main page. 
 
@@ -22,13 +22,13 @@ As the user scroll down, there is about us section with description on me and vi
 
 ##Wireframes
 
-**Desktop screen: 
+**Desktop screen:**
 * [index page](https://github.com/napta894/napta894.github.io/blob/8aaaf227aadc9064c20d572316d6c471eae1bae2/files/portfolio-wireframes%20/laptop/index-page.png)
 * [about page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/about-page.png)
 * [portfolio page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/portfolio-page.png)
 * [contact page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/contact-page.png)
 
-**Mobile screen: 
+**Mobile screen:**
 * [index page home section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-home%20section-mobile.png)
 * [index page about section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-about-section.png)
 * [index page portfolio section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-Portfolio%20section.png)
@@ -40,7 +40,7 @@ As the user scroll down, there is about us section with description on me and vi
 
 ##Features
 
-**1) All pages
+**1) All pages **
 
 * Contact button directing the user to the actual page situated at the bottom with the footer
 * Humber button: navigation links for small screen users. 
