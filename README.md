@@ -1,16 +1,15 @@
 # README
 
-## Content ##
+## Contents
 
--[UX] (https://github.com/napta894/napta894.github.io/blob/master/README.md#ux)
--[Wireframes] (https://github.com/napta894/napta894.github.io/blob/master/README.md#wireframes)
--[Features] (https://github.com/napta894/napta894.github.io/blob/master/README.md#features)
--[Tools] (https://github.com/napta894/napta894.github.io/blob/master/README.md#tools)
--[Responsiveness Tests] (https://github.com/napta894/napta894.github.io/blob/master/README.md#responsiveness-tests)
--[Resources] (https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
--[Deployment] (https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
--[Code Validation] 
--[Aknowldgments] (https://github.com/napta894/napta894.github.io/blob/master/README.md#aknowledgments)
+-[UX](https://github.com/napta894/napta894.github.io/blob/master/README.md#ux)
+-[Wireframes](https://github.com/napta894/napta894.github.io/blob/master/README.md#wireframes)
+-[Features](https://github.com/napta894/napta894.github.io/blob/master/README.md#features)
+-[Tools](https://github.com/napta894/napta894.github.io/blob/master/README.md#tools)
+-[Responsiveness Tests](https://github.com/napta894/napta894.github.io/blob/master/README.md#responsiveness-tests)
+-[Resources](https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
+-[Deployment](https://github.com/napta894/napta894.github.io/blob/master/README.md#resources)
+-[Aknowldgments](https://github.com/napta894/napta894.github.io/blob/master/README.md#aknowledgments)
 
 **About the Website** 
 
