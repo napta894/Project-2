@@ -23,16 +23,20 @@ As the user scroll down, there is about us section with description on me and vi
 Wireframes
 
 Desktop screen: 
-* [index-page.md](https://github.com/napta894/napta894.github.io/blob/8aaaf227aadc9064c20d572316d6c471eae1bae2/files/portfolio-wireframes%20/laptop/index-page.png)
-* about-
-* portfolio-
-* contact-
+* [index-page](https://github.com/napta894/napta894.github.io/blob/8aaaf227aadc9064c20d572316d6c471eae1bae2/files/portfolio-wireframes%20/laptop/index-page.png)
+* [about-page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/about-page.png)
+* [portfolio-page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/portfolio-page.png)
+* [contact-page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/contact-page.png)
 
 Mobile screen: 
-* index-
-* about-
-* portfolio-
-* contact-
+* [index-page-home-section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-home%20section-mobile.png)
+* [index-page-about-section] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-about-section.png)
+* [index-page-portfolio-section] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-Portfolio%20section.png)
+* [about-page-mobile] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/about-page-mobile.png)
+* [portfolio-page-mobile] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/portfolio-page-%20mobile.png)
+* [contact-page-section-1] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-1.png)
+* [contact-page-section-2] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-2.png)
+* [prototype-landing-page] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/prototype-landing-page-mobile.jpg)
 
 Features
 
@@ -89,7 +93,7 @@ Important elements that are modified for flexibility reasons are:
 * Portfolio html -tablet and small screen size:  one sample of work is shown in the tablet version.
 * Contact html -the tablet and phone size:  contact section is positioned at top while the form at the bottom.
 
-Resources 
+Resources
  
 Repository:
 
@@ -97,11 +101,19 @@ https://github.com/napta894/napta894.github.io
 
 file:///Users/nana/Documents/GitHub/napta894.github.io/index.html
 
-Files:
+Files
 
 - IMAGES:
 
  https://unsplash.com/s/photos/digital-marketing
+ 
+-Resume 
+
+[Napta Hag Resume] (https://github.com/napta894/napta894.github.io/blob/master/files/NAPTA%20HAG%20resume.pdf)
+
+Deployment
+
+Github desktop was used to deploy the website.
 
 
 Aknowledgments
