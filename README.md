@@ -23,20 +23,20 @@ As the user scroll down, there is about us section with description on me and vi
 Wireframes
 
 Desktop screen: 
-* [index-page](https://github.com/napta894/napta894.github.io/blob/8aaaf227aadc9064c20d572316d6c471eae1bae2/files/portfolio-wireframes%20/laptop/index-page.png)
-* [about-page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/about-page.png)
-* [portfolio-page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/portfolio-page.png)
-* [contact-page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/contact-page.png)
+* [index page](https://github.com/napta894/napta894.github.io/blob/8aaaf227aadc9064c20d572316d6c471eae1bae2/files/portfolio-wireframes%20/laptop/index-page.png)
+* [about page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/about-page.png)
+* [portfolio page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/portfolio-page.png)
+* [contact page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/laptop/contact-page.png)
 
 Mobile screen: 
-* [index-page-home-section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-home%20section-mobile.png)
-* [index-page-about-section] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-about-section.png)
-* [index-page-portfolio-section] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-Portfolio%20section.png)
-* [about-page-mobile] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/about-page-mobile.png)
-* [portfolio-page-mobile] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/portfolio-page-%20mobile.png)
-* [contact-page-section-1] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-1.png)
-* [contact-page-section-2] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-2.png)
-* [prototype-landing-page] (https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/prototype-landing-page-mobile.jpg)
+* [index page home section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-home%20section-mobile.png)
+* [index page about section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-about-section.png)
+* [index page portfolio section](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/index-page-mobile-Portfolio%20section.png)
+* [about page mobile](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/about-page-mobile.png)
+* [portfolio page mobile](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/portfolio-page-%20mobile.png)
+* [contact page section 1](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-1.png)
+* [contact page section 2](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/contact-page-mobile-2.png)
+* [prototypelanding page](https://github.com/napta894/napta894.github.io/blob/master/files/portfolio-wireframes%20/phone/prototype-landing-page-mobile.jpg)
 
 Features
 
