@@ -1,6 +1,19 @@
 # README
 
-**Napta Hag Portfolio Website** 
+##Content##
+
+-[About the website]
+-[UX]
+-[Wireframes]
+-[Features]
+-[Tools]
+-[Responsiveness Tests]
+-[Resources]
+-[Deployment]
+-[Code Deployment]
+-[Aknowldgments]
+
+**About the Website** 
 
 This website is made to showcase my skills as Front-end developer and UI designer. The website also expresses my personality as simple and modern style. 
 
@@ -99,18 +112,26 @@ Important elements that are modified for flexibility reasons are:
 
 https://github.com/napta894/napta894.github.io
 
-
-file:///Users/nana/Documents/GitHub/napta894.github.io/index.html
-
-## Files 
- 
-Resume 
+**Resume**
 
 [Napta Hag Resume] (https://github.com/napta894/napta894.github.io/blob/master/files/NAPTA%20HAG%20resume.pdf)
 
 ## Deployment
 
-Github desktop was used to deploy the website.
+Github desktop was used to deploy the website.  Regular commit was done to the changes of the website.
+Deployment steps are followed in this way:
+
+1: Installing Git Hub Desktop. 
+2: Login in the website version of GitHub
+3: Clone the repository through Git Hub.
+4: Current Repository changes were  automatically updated.
+5: Add description summery and commit to Master.
+6: Pull the commit changes to the origin remote master (Github.com/napta894.github.io)
+
+
+## Code Validation
+
+Validator markup allowed the validation of the coding. [validator markup] (https://validator.w3.org/#validate_by_input)
 
 
 ## Aknowledgments
