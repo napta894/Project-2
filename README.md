@@ -112,7 +112,7 @@ https://github.com/napta894/napta894.github.io
 
 **Resume**
 
-[Napta Hag Resume] (https://github.com/napta894/napta894.github.io/blob/master/files/NAPTA%20HAG%20resume.pdf)
+[Napta Hag Resume](https://github.com/napta894/napta894.github.io/blob/master/files/NAPTA%20HAG%20resume.pdf)
 
 ## Deployment
 
@@ -130,7 +130,7 @@ Deployment steps are followed in this way:
 ## Code Validation
 
 Validator markup allowed the validation of the coding. 
-[validator markup] (https://validator.w3.org/#validate_by_input)
+[validator markup](https://validator.w3.org/#validate_by_input)
 
 
 ## Aknowledgments
