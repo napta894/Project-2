@@ -108,7 +108,7 @@ Important elements that are modified for flexibility reasons are:
 
 ## Resources
  
-**Repository:**
+**Repository**
 
 https://github.com/napta894/napta894.github.io
 
