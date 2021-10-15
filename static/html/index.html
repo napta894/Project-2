@@ -3,7 +3,7 @@
 <head>
 <title>Napta Hag</title>
 <meta charset="utf-8" content="text/html;">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!--style css-->
 <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
 <!--icons -->
@@ -79,37 +79,47 @@ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="ano
     <h1 class="about-h1">About</h1>
   </div>
 </div>
-<div class="about-box profile">
-  <h2>Profile</h2>
-  <p class="aboutp"> I am a front end developer and UI designer. Based in London, UK.
-  I have a MSC in International Marketing and a specialistic in Web Design.
-  Moreover, I have experience in freelancing, digital marketing and coding on a variety of projects.
-  I create websites and applications with creativity, usability and attention to details while having in mind all users.
-  </p>  
+<div class="clearfix">
+  <div class="about-box profile">
+     <h2>Profile</h2>
+     <p class="aboutp"> I am a front end developer and UI designer. Based in London, UK.
+     I have a MSC in International Marketing and a specialistic in Web Design.
+     Moreover, I have experience in freelancing, digital marketing and coding on a variety of projects.
+     I create websites and applications with creativity, usability and attention to details while having in mind all users.
+     </p>  
+  </div>
+  <div class="about-box">   
+     <h2>Skills</h2>
+     <p>HTML</p>
+     <div class="skills-container">
+          <div class="skills html"> 90%</div>
+      </div>
+
+     <p>CSS</p>
+     <div class="skills-container">
+          <div class="skills css"> 80% </div>
+     </div>
+
+     <p>Javacript</p>
+     <div class="skills-container">
+         <div class="skills js"> 70% </div>
+     </div>
+
+      <p>React</p>
+      <div class="skills-container">
+           <div class="skills react"> 60% </div>
+      </div>
+  </div>
 </div>
-<div class="about-box">   
- <h2>Skills</h2>
-  <p>HTML</p>
-  <div class="skills-container">
-    <div class="skills html"> 90%</div>
+  <div class="about_btn">
+  <p class="info-1">Download Resume</p>
+  <span class="fa-stack fa-1x"></span>
+  <button class="btn1" onclick="window.open('/files/napta-hag-resume.pdf', '_blank')" download="NaptaHagResume">
+    <span class="iconify" data-inline="false" data-icon="entypo:download"
+      style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>
   </div>
+</section> 
 
-  <p>CSS</p>
-  <div class="skills-container">
-    <div class="skills css"> 80% </div>
-  </div>
-
-  <p>Javacript</p>
-  <div class="skills-container">
-    <div class="skills js"> 70% </div>
-  </div>
-
-  <p>React</p>
-  <div class="skills-container">
-      <div class="skills react"> 60% </div>
-  </div>
- </div>
- </section> 
  <!--Portfolio section-->
 <section id="work" class="work">
 <div class="section-heading">
@@ -119,20 +129,20 @@ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="ano
     <h1 class="work-h1">Portfolio</h1>  
   </div> 
 </div> 
-<div class="box-wrapper">
- <div class="scrolling-wrapper-flexbox">
+<div class="work-container">
+ <div class="box-wrapper">
+   <div class="scrolling-wrapper-flexbox">
 
-   <div class="item">
+    <div class="item">
      <div id="box1">
        <img src="/images/UI-design.jpg" class="img" alt="UI DESIGN">
        <h2 class="image-text">UI/UX design</h2>
      </div>
-   </div>
+    </div>
 
-   <div class="item">
+    <div class="item">
      <div id="box2">
        <img src="/images/landing-pages.jpg" class="img" alt="web Development">
-       <br><br><br>
        <h2 class="image-text">Web Development</h2>
       </div>
     </div>
@@ -143,14 +153,14 @@ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="ano
        <h2 class="image-text">Digital Marketing</h2>
      </div>
    </div>
-  </div>
 
-  <div class="btn2-container">
-    <button class="btn2"  onclick="window.open(' https://www.behance.net/naptahagportfolios', '_blank')" > See more </button>
-  </div>   
+   </div>
+ </div>
 </div>
-<span></span>
-<span></span>
+
+<div class="btn2-container">
+    <button class="btn2"  onclick="window.open(' https://www.behance.net/naptahagportfolios', '_blank')" > See more </button>
+</div>   
 </section>
 </main>
 <!--footer-->
