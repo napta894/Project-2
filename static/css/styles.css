@@ -548,7 +548,7 @@ p {
 }
 
 .about_btn .btn1:hover {
-    background-color: #F3EFE9;
+    background-color: #776571;
 }
 
 
@@ -669,75 +669,87 @@ p {
 /*Aboutme page Css */
 
 .section {
-    padding:0 2rem ;
+    padding:0 1.5rem ;
 }
 
 .container {
-
-    display: block;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
     margin-top: 1.5rem;
+    text-align: center;
 }
 
 .aboutme_h1 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 3rem;
     font-family:Helvetica, sans-serif; 
     color:#9C8194;
+    margin-bottom: 1rem;
 }
+
+.aboutme_nameh1 {
+    font-size:3rem;
+    font-weight: 400;
+}
+
+.aboutme_nameh2 {
+    font-family: Didot,serif; 
+    font-size: 1.5rem; 
+    font-style: italic; 
+    line-height: 2.4; 
+    bottom: 0% ; 
+    color:black; 
+    opacity:60%;
+}
+
 
 .image-section {
-    width: 50%;
-}
-
-.parent {
-    height:50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .image-section img {
-    margin-bottom: 1.5rem;
-    padding-left: 5rem;
-    padding-right:5rem;
+  border-radius: 5%;  
+  padding: 5px; 
+  width: 150px; 
 }
-
 
 .aboutme_p {
    font-family:Helvetica, sans-serif; 
-   font-size: 1.5rem; 
-   font-weight:200; 
+   font-size: 1rem; 
    line-height: 1.8; 
-   margin-bottom: 1rem;
+   font-weight: 200;
+   margin-bottom: 2rem;
+   text-align: justify;
 }
 
-.download-resume {
-    text-align: center;
-    margin-bottom: 2rem;
-}
 
 .info {
     font-family:Helvetica, sans-serif; 
     color: black;
     text-align: center;
     font-weight: bold;
-    font-size: 24px;  
+    font-size: 1.5rem;  
     position: relative; 
     margin-bottom: 10px;
     padding: 0 0; 
 }
 
 .btn4 {
+    display: inline-block;
     border-style: solid;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
     cursor: pointer;
     height:59px; 
-    width:50%;
+    width:120px;
     background-color: #9C8194;
     border-radius: 5px;
-    margin-top: 20px; 
+    margin-top: 1.25rem; 
+    margin-bottom:1.25rem;
     padding: 5px 10px;
 }
 
@@ -749,7 +761,7 @@ p {
 /*Portfolio Page Css */
 
 .container {
-    padding:5rem;
+    padding:2rem;
 }
 
 .portfolio {
@@ -782,8 +794,6 @@ p {
     color: #9C8194;
 }
 .portfolio_main {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
     padding: 4px;
     margin-bottom: 30px;
 }
@@ -799,7 +809,7 @@ p {
     margin-bottom:40px;
 }
 .portfolio_right p {
-    font-family: -apple-system,'Segoe UI','Helvetica Neue', sans-serif, sans-serif;
+    font-family:'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: 200;
     color: black;
@@ -836,12 +846,11 @@ p {
 }
 
 
-
 /*Contact page Css */
 
 .contact {
     position:relative;
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 50px 100px;
     display: flex;
     justify-content: center;
@@ -849,7 +858,7 @@ p {
     flex-direction: column;
 }
 .contact .content {
-    max-width: 800px;
+    max-width: 50rem;
     text-align: center;
 }
 
@@ -873,7 +882,7 @@ p {
 
 .contactInfo {
     font-family:Helvetica, sans-serif; 
-    font-size: 2rem ; 
+    font-size: 1.5rem ; 
 }
 
 .container1 .contactInfo {
@@ -890,14 +899,14 @@ p {
 
   .container1 .contactInfo .box .text {
       display:flex;
-      margin-left: 20px;
-      font-size:1.5rem;
+      margin-left: 10px;
+      font-size:2rem;
       flex-direction: column;
   }
 
   .container1 .contactInfo .box .h3 {
 
-      font-weight:300;
+      font-weight:200;
   }
 
 .contacth1 {
@@ -936,9 +945,12 @@ p {
 .contactForm .inputBox input {
    width:100%;
    padding: 5px 0;
-   font-size: 1rem;
+   font-size: 2rem;
    margin: 10px 0;
+}
 
+.inputBox {
+    font-size:2rem;
 }
 
 input[type=text]
@@ -947,6 +959,7 @@ input[type=text]
     padding:10px;
     margin: 10px 5px;
     margin-top: 10px;
+    font-size: 2rem;
 
 }
 
@@ -1246,22 +1259,39 @@ input:invalid {
 
 @media screen and (max-width: 480px) {
 
-
-    .container {
-    width: 100vh;
-    display: block;
+    html {
     font-size: 100%;
+    width: 100vh;
     }
 
-    .content-section {
-    float:none;
-    width: 100%;
-    display:block;
-    margin:auto;
+    body{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    }
+    
+    .section {
+    padding:0 0.5rem;
+    }
+    .container {
+    width: 100vh;
+    }
+
+
+    .aboutme_h1 {
+    font-size: 1rem;
+    }
+
+    .aboutme_nameh1 {
+        font-size:2rem;
+    }
+
+    .aboutme_nameh2 {
+        font-size:1rem;
     }
 
     .image-section {
-    float:none;
+    height:auto;
     width: 50%;
     }
 
@@ -1270,27 +1300,14 @@ input:invalid {
     margin: auto;
     }
 
-    img {
-    width: 100vw;
-    height: auto;
+    .aboutme_p {
+        display:block;
+        font-size:.5rem;
+        text-align: justify;
+        padding:0 0;
     }
 
-    .content-section .title {
-     text-align: center;
-     font-size: 1rem;
-    }
-
-    .content-section .content .btn4 {
-     text-align: center;
-    }
-
-    .aboutme_p p {
-    display: block;
-    padding-right: 0;
-    text-align: center;
-    padding-left: 5rem;
-
-    }
+    
     .footer {
     display: block;
     flex-direction: column;
@@ -1300,12 +1317,26 @@ input:invalid {
 
 @media screen and (max-width: 768px) {
 
+    html {
+    font-size: 100%;
+    width: 100vh;
+    display: block;
+    }
+
+    body{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    }
+    
+    .section {
+        padding:0;
+    }
     .container {
     width: 100%;
     display: block;
     margin:auto;
-    padding-top:2rem;
-    font-size: 100%;
+    padding-top:1.5rem;
     }
 
     .content-section {
@@ -1346,7 +1377,7 @@ input:invalid {
 
 @media screen and (max-width:480px) {
 
-html {
+    html {
     font-size: 100%;
     width: 50vh;
     display: block;
@@ -1360,7 +1391,7 @@ html {
     
     .main .section .footer {
     flex-direction: column;
-    }
+    } 
 
    img {
     width: 100%;
@@ -1372,7 +1403,7 @@ html {
     }
 
    .portfolio_container h1 {
-     font-size: 40px;
+    font-size: 2.5rem;
    }
 
     .portfolio_projects {
@@ -1389,35 +1420,27 @@ html {
     }
 
     #nav-pc a {
-        font-size: 3rem;
+    font-size: 3rem;
     }
 
     .logo-style {
-        display:inline;
-        position: relative;
-        float: initial;
-        width:189px;
-        height:50px;
+    display:inline;
+    position: relative;
+    float: initial;
+    width:189px;
+    height:50px;
     }
     .portfolio_projects {
-        display: none;
+    display: none;
     }
 
     img {
-        margin-top: 10px;
+    margin-top: 10px;
     }
 }
 
 @media screen and (max-width:1024px) {
 
-    html {
-    font-size: 50%;
-
-    }
-    body{
-        margin: 0;
-        padding: 1rem;
-    }
 
     .nav-pc{
     font-size: 3rem;
@@ -1475,7 +1498,7 @@ html {
 
     html {
     font-size: 100%;
-    width: 100vh;
+    width: 50vh;
     display: block;
     }
 
@@ -1486,28 +1509,32 @@ html {
     }
     
     .main .section .footer {
-       flex-direction: column;
+    flex-direction: column;
     }
 
     .contact {
-        font-size: 3rem;
+    font-size: 1.5rem;
     }
 
     .content-contact {
-        font-size: 2rem;
+    font-size: 1.5rem;
+    }
+
+    .contactInfo {
+    font-size:1.5rem;
     }
 
     .container1 .contactInfo .box .text {
-      display:flex;
-      margin-left: 2rem;
-      font-size:1.5rem;
-      flex-direction: column;
+    display:flex;
+    margin-left: 1.5rem;
+    font-size:1.5rem;
+    flex-direction: column;
     }
 
      .contactForm h2 {
-    font-size: 1rem;
+    font-size: 3rem;
     color: #9C8194;
-    font-weight: 300;
+    font-weight: 400;
     }
     
     ::-webkit-input-placeholder {  
@@ -1516,6 +1543,11 @@ html {
 
     .inputBox {
     font-size: 2rem;
+    }
+
+    .contactInfo p {
+       line-height: 40px;
+       font-size: 1.5rem;
     }
 
 }
