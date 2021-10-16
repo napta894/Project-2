@@ -49,7 +49,7 @@
 html
 {
      overflow: hidden;
-     height: auto;/* or any value */
+     height: auto;
      overflow-y: auto;
      scroll-behavior: smooth;
 }
@@ -552,7 +552,6 @@ p {
 }
 
 
-
 /*Work section Css */
 
 .work {
@@ -668,16 +667,41 @@ p {
 
 /*Aboutme page Css */
 
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
 .section {
-    padding:0 1.5rem ;
+    width: 100%;
+    min-height: 100vh;
+    padding:0 0 0 0;
 }
 
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    margin-top: 1.5rem;
-    text-align: center;
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float:left;
+    width: 55%;
+}
+
+.image-section {
+    float:right;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.image-section img {
+  width: 50%;
+  text-align: center;
+  height: auto;
+  border-radius: 5%;   
 }
 
 .aboutme_h1 {
@@ -685,52 +709,43 @@ p {
     font-size: 3rem;
     font-family:Helvetica, sans-serif; 
     color:#9C8194;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .aboutme_nameh1 {
     font-size:3rem;
+    text-align: center;
     font-weight: 400;
+    margin-bottom: 2rem;
 }
 
 .aboutme_nameh2 {
     font-family: Didot,serif; 
+    text-align: center;
     font-size: 1.5rem; 
     font-style: italic; 
     line-height: 2.4; 
-    bottom: 0% ; 
     color:black; 
     opacity:60%;
-}
-
-
-.image-section {
-    width: 100%;
-    height: auto;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.image-section img {
-  border-radius: 5%;  
-  padding: 5px; 
-  width: 150px; 
+    margin-bottom: 2rem;
 }
 
 .aboutme_p {
    font-family:Helvetica, sans-serif; 
-   font-size: 1rem; 
+   font-size: 1.5rem; 
    line-height: 1.8; 
    font-weight: 200;
-   margin-bottom: 2rem;
    text-align: justify;
+   margin-top: 20px;
 }
 
+.content .content-section {
+    margin-top: 10px;
+}
 
 .info {
     font-family:Helvetica, sans-serif; 
     color: black;
-    text-align: center;
     font-weight: bold;
     font-size: 1.5rem;  
     position: relative; 
@@ -1252,91 +1267,57 @@ input:invalid {
     padding: 0;
     }
 
-
 }
 
 /*========== About page media queries  ==========*/
 
 @media screen and (max-width: 480px) {
 
+    #nav-pc {
+    display: none;
+    }
+
+    #nav-toggle {
+    display:block;
+    width: 50vh;
+    text-align: right;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    }
+    
+
+    .logo-style {
+    display:block;
+    position: relative;
+    float: initial;
+    width:189vh;
+    height:50vh;
+    }
+
     html {
     font-size: 100%;
-    width: 100vh;
     }
 
-    body{
-    margin: 0;
-    padding: 0;
-    width: 100vh;
-    }
-    
     .section {
-    padding:0 0.5rem;
+    height:100vh;
     }
-    .container {
-    width: 100vh;
-    }
-
-
-    .aboutme_h1 {
-    font-size: 1rem;
-    }
-
-    .aboutme_nameh1 {
-        font-size:2rem;
-    }
-
-    .aboutme_nameh2 {
-        font-size:1rem;
-    }
-
-    .image-section {
-    height:auto;
-    width: 50%;
-    }
-
-    .image-section img {
-    display: flex;
-    margin: auto;
-    }
-
-    .aboutme_p {
-        display:block;
-        font-size:.5rem;
-        text-align: justify;
-        padding:0 0;
-    }
-
     
-    .footer {
-    display: block;
-    flex-direction: column;
-    }
- 
 }
+
 
 @media screen and (max-width: 768px) {
 
-    html {
-    font-size: 100%;
-    width: 100vh;
-    display: block;
+    .section {
+    width: 100%;
+    min-height: 100vh;
+    padding:0 0 0 0;
     }
 
-    body{
-    margin: 0;
-    padding: 0;
-    width: 100vh;
-    }
-    
-    .section {
-        padding:0;
-    }
     .container {
-    width: 100%;
+    width: 80%;
     display: block;
     margin:auto;
-    padding-top:1.5rem;
+    padding-top: 50px;
     }
 
     .content-section {
@@ -1345,33 +1326,34 @@ input:invalid {
     display:block;
     margin:auto;
     }
-   
-
+    
     .image-section {
     float:none;
-    max-width: 100%;
-    height:auto;
+    width: 50%;
+    display:block;
+    margin:auto;
+    text-align: center;  
     }
 
-    .image-section img {
-    display: none;
-    margin: auto;
+    .aboutme_h1 {
+    text-align: center;
+    font-size: 4rem;
     }
 
-    .content-section .title {
-     text-align: center;
-     font-size: 1rem;
+    .download-resume {
+    text-align: center;
     }
 
-    .content-section .content .btn4 {
-     text-align: center;
-     }
+    .btn4 {
+        height:50px;
+    }
 
-    .footer {
-        display:flex;
+    .content-section .aboume_p {
+    font-size: 3rem;
     }
 
 }
+
 
 /*========== Portfolio page media queries  ==========*/
 
@@ -1508,9 +1490,6 @@ input:invalid {
     width: 100vh;
     }
     
-    .main .section .footer {
-    flex-direction: column;
-    }
 
     .contact {
     font-size: 1.5rem;
@@ -1538,7 +1517,7 @@ input:invalid {
     }
     
     ::-webkit-input-placeholder {  
-    font-size: 1.2rem;
+    font-size: 2rem;
     }
 
     .inputBox {
@@ -1560,16 +1539,16 @@ input:invalid {
     }
 
     .box {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .contactInfo .text {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .container1 {
         flex-direction: column;
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 
@@ -1585,11 +1564,33 @@ input:invalid {
     .container1 .contactInfo .box .text {
       display:flex;
       margin-left: 20px;
-      font-size:2.5rem;
+      font-size:2rem;
       flex-direction: column;
      }
 
      /* Chrome/Opera/Safari */
     ::-webkit-input-placeholder { 
     font-size: 2rem; }
+}
+
+
+@media screen and (max-width:1024px) {
+ 
+    .body {
+      display:block;
+    }
+
+    html {
+        height:50vh;
+    }
+
+    .container1 .contactForm{ 
+        width: 100%;
+    }
+
+    *, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    }
+
 }
