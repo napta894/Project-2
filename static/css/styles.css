@@ -777,6 +777,7 @@ p {
 
 .container {
     padding:2rem;
+    text-align: center;
 }
 
 .portfolio {
@@ -1298,8 +1299,48 @@ input:invalid {
     font-size: 100%;
     }
 
+    .body {
+    max-height: 100vh;
+    }
+
     .section {
-    height:100vh;
+    height:200vh;
+    }
+
+    .container {
+        margin-top: 6rem;
+        padding-top: 100px;
+    }
+
+    .aboutme_h1 {
+        margin-top: 3rem;
+    }
+
+    .content-section {
+        margin-top: 7rem;
+    }
+
+    .download-resume {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .info {
+        font-size: 2rem;
+    }
+
+    .image-section img {
+        margin-top: 4rem;
+        margin-bottom:3rem;
+        width: 100%;
+    }
+
+    .btn4 {
+        height:100%;
+    }
+    
+    .footer {
+    margin-bottom: 0px;
     }
     
 }
@@ -1337,7 +1378,7 @@ input:invalid {
 
     .aboutme_h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 2rem;
     }
 
     .download-resume {
@@ -1369,8 +1410,14 @@ input:invalid {
     margin: 0;
     padding: 0;
     width: 100vh;
+    max-height: 100vh;
     }
     
+
+    .container{
+    height:200vh;
+    }
+
     .main .section .footer {
     flex-direction: column;
     } 
@@ -1382,10 +1429,12 @@ input:invalid {
 
    .portfolio { 
     padding: 5px;
+    margin-top: 2rem;
     }
 
    .portfolio_container h1 {
     font-size: 2.5rem;
+    margin-top: 2rem;
    }
 
     .portfolio_projects {
