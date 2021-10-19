@@ -128,6 +128,7 @@ Deployment steps are followed in this way:
 4. Current Repository changes were  automatically updated.
 5. Add description summery and commit to Master.
 6. Pull the commit changes to the origin remote master (Github.com/napta894.github.io)
+7. Copy Website Files to GitHub Repository
 
 
 ## Code Validation
