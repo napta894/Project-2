@@ -1058,6 +1058,8 @@ input:invalid {
 }
 
 
+
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
@@ -1102,7 +1104,6 @@ input:invalid {
     font-size: 2rem;
     line-height: 1;
     }
-
 
     .mainh3 {
     display: none;
@@ -1327,7 +1328,7 @@ input:invalid {
 
     .container {
         margin-top: 6rem;
-        padding-top: 100px;
+        padding-top: 100vh;
     }
 
     .aboutme_h1 {
@@ -1358,7 +1359,7 @@ input:invalid {
     }
     
     .footer {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
     
 }
@@ -1375,7 +1376,7 @@ input:invalid {
     width: 80%;
     display: block;
     margin:auto;
-    padding-top: 50px;
+    padding-top: 50vh;
     }
 
     .content-section {
@@ -1534,7 +1535,7 @@ input:invalid {
 
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1280px) {
     .portfolio_projects {
     flex-direction: column;
      }  
@@ -1591,7 +1592,7 @@ input:invalid {
     }
 
     .contactInfo p {
-       line-height: 40px;
+       line-height: 40vh;
        font-size: 1.5rem;
     }
 
@@ -1600,7 +1601,7 @@ input:invalid {
 @media screen  and (max-width:768px) {
 
     .contact {
-        padding:50px;
+        padding:50vh;
         font-size: 4rem;
     }
 
@@ -1619,7 +1620,7 @@ input:invalid {
     }
 
     .container1 .contactInfo {
-        margin-bottom: 40px;
+        margin-bottom: 40vh;
         font-size: 3rem;
     }
 
