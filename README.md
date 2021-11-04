@@ -111,7 +111,12 @@ Important elements that are modified for flexibility reasons are:
  
 **Repository**
 
-https://github.com/napta894/napta894.github.io
+napta894.github.io
+
+
+website:
+
+ https://napta894.github.io/
 
 **Resume**
 
