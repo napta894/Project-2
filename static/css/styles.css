@@ -1420,20 +1420,20 @@ input:invalid {
 
     html {
     font-size: 100%;
-    width: 50vh;
-    display: block;
+    width: 100%;
+    display: flex;
     }
 
     body{
     margin: 0;
     padding: 0;
-    width: 100vh;
-    max-height: 100vh;
+    width: 100%;
     }
     
 
     .container{
-    height:200vh;
+    display: flex;
+    flex-direction: column;
     }
 
     .main .section .footer {
@@ -1447,7 +1447,6 @@ input:invalid {
 
    .portfolio { 
     padding: 5px;
-    margin-top: 2rem;
     }
 
    .portfolio_container h1 {
@@ -1462,9 +1461,20 @@ input:invalid {
 
 @media screen and (max-width:768px) {
 
+    .html {
+    display: flex;
+    }
+
     .nav-pc{
     padding: 1rem 2rem;
     font-size: 4rem;
+
+    }
+    
+    .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
     }
 
@@ -1479,6 +1489,7 @@ input:invalid {
     width:189px;
     height:50px;
     }
+
     .portfolio_projects {
     display: none;
     }
@@ -1547,19 +1558,20 @@ input:invalid {
 
     html {
     font-size: 100%;
-    width: 50vh;
-    display: block;
+    width: 100vh;
+    display: flex;
     }
 
     body{
     margin: 0;
     padding: 0;
-    width: 100vh;
+    width: 100%;
     }
     
-
     .contact {
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
     }
 
     .content-contact {
@@ -1569,6 +1581,13 @@ input:invalid {
     .contactInfo {
     font-size:1.5rem;
     }
+
+    .container1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
 
     .container1 .contactInfo .box .text {
     display:flex;
@@ -1592,7 +1611,7 @@ input:invalid {
     }
 
     .contactInfo p {
-       line-height: 40vh;
+       line-height: 20vh;
        font-size: 1.5rem;
     }
 
@@ -1600,9 +1619,36 @@ input:invalid {
 
 @media screen  and (max-width:768px) {
 
+    html {
+    font-size: 100%;
+    max-width: 100vh;
+    display: flex;
+    }
+
+    body{
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    }
+    
+    .header .main {
+    display: flex;
+    }
+
+    .container1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .container1 .contactInfo .box .text {
+    display:flex;
+    flex-direction: column;
+    }
+
     .contact {
-        padding:50vh;
         font-size: 4rem;
+        display: flex;
     }
 
     .box {
@@ -1616,11 +1662,11 @@ input:invalid {
     .container1 {
         flex-direction: column;
         font-size: 1.5rem;
-
+        max-width: 100%;
     }
 
     .container1 .contactInfo {
-        margin-bottom: 40vh;
+        margin-bottom: 20vh;
         font-size: 3rem;
     }
 
