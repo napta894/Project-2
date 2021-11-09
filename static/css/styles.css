@@ -1097,6 +1097,8 @@ input:invalid {
 
     .home-content {
     padding-top: 25rem;
+    width: 5vh;
+
     }
 
     .home-content-text h1 {
@@ -1471,7 +1473,7 @@ input:invalid {
 
     html {
     font-size: 100%;
-    width: 100%;
+    width: 50%;
     display: flex;
     }
 
@@ -1481,20 +1483,21 @@ input:invalid {
     width: 100%;
     }
 
+
+
     .nav-pc{
     padding: 1rem 2rem;
-    font-size: 4rem;
+    font-size: 1.5rem;
 
     }
     
     .container {
-    display: flex;
-    align-items: center;
     flex-direction: column;
+    width: 100%
     }
 
     #nav-pc a {
-    font-size: 3rem;
+    font-size: 1.5rem;
     }
 
     .logo-style {
