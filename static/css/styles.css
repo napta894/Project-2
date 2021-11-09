@@ -1058,8 +1058,6 @@ input:invalid {
 }
 
 
-
-
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
@@ -1090,10 +1088,11 @@ input:invalid {
 
     html {
     font-size: 50%;
+    display: flex;
     }
 
     .home {
-    height:50vh;
+    height:100vh;
     }
 
     .home-content {
@@ -1176,6 +1175,7 @@ input:invalid {
 
     html {
     font-size: 50%;
+    display: flex;
     }
 
     .nav-pc{
@@ -1271,11 +1271,11 @@ input:invalid {
 @media screen and (max-width:1024px) {
  
     .body {
-      display:block;
+      display:flex;
     }
 
     html {
-        height:50vh;
+    height:50vh;
     }
 
     .home-content {
@@ -1316,19 +1316,25 @@ input:invalid {
 
     html {
        font-size: 100%;
+       display: flex;
     }
 
     .body {
-       max-height: 100vh;
+       max-height: auto;
     }
 
     .section {
-       height:200vh;
+       height:auto;
+    }
+
+    .main {
+        display: flex;
+        max-height: 2000vh;
     }
 
     .container {
         margin-top: 6rem;
-        padding-top: 100vh;
+        padding-top: auto;
     }
 
     .aboutme_h1 {
@@ -1366,9 +1372,12 @@ input:invalid {
 
 @media screen and (max-width: 768px) {
 
+    .html {
+    display: flex;
+    }
+
     .section {
     width: 100%;
-    min-height: 100vh;
     padding:0 0 0 0;
     }
 
@@ -1376,7 +1385,6 @@ input:invalid {
     width: 80%;
     display: block;
     margin:auto;
-    padding-top: 50vh;
     }
 
     .content-section {
@@ -1404,7 +1412,7 @@ input:invalid {
     }
 
     .btn4 {
-        height:50px;
+    height:50px;
     }
 
     .content-section .aboume_p {
@@ -1461,8 +1469,16 @@ input:invalid {
 
 @media screen and (max-width:768px) {
 
-    .html {
+    html {
+    font-size: 100%;
+    width: 100%;
     display: flex;
+    }
+
+    body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     }
 
     .nav-pc{
@@ -1475,7 +1491,6 @@ input:invalid {
     display: flex;
     align-items: center;
     flex-direction: column;
-
     }
 
     #nav-pc a {
@@ -1580,6 +1595,11 @@ input:invalid {
 
     .contactInfo {
     font-size:1.5rem;
+    }
+
+    .contactForm  h2 {
+        display: flex;
+        align-items: center;
     }
 
     .container1 {
