@@ -1097,8 +1097,7 @@ input:invalid {
 
     .home-content {
     padding-top: 25rem;
-    width: 5vh;
-
+    
     }
 
     .home-content-text h1 {
@@ -1204,6 +1203,7 @@ input:invalid {
 
     .home-content {
     padding-top: 20rem;
+    width: 100%;
     }
 
     .home-content-text h1 {
