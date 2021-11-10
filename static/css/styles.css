@@ -1071,7 +1071,6 @@ input:invalid {
 
     #nav-toggle {
     display:block;
-    width: 50vh;
     text-align: right;
     padding: 1rem 2rem;
     font-size: 3rem;
@@ -1086,10 +1085,6 @@ input:invalid {
     height:50vh;
     }
 
-    html {
-    font-size: 50%;
-    display: flex;
-    }
 
     .home {
     height:100vh;
@@ -1175,18 +1170,17 @@ input:invalid {
 
 
     html {
-    font-size: 50%;
-    display: flex;
+    font-size: 100%;
     }
 
     .nav-pc{
     padding: 1rem 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 
     }
 
     #nav-pc a {
-    font-size: 3rem;
+    font-size: 1.5rem;
     }
 
     .logo-style {
@@ -1202,8 +1196,7 @@ input:invalid {
     }
 
     .home-content {
-    padding-top: 20rem;
-    width: 100%;
+    padding-top: 10rem;
     }
 
     .home-content-text h1 {
@@ -1317,26 +1310,22 @@ input:invalid {
     }
 
     html {
-       font-size: 100%;
-       display: flex;
+    font-size: 100%;
+    display: flex;
     }
 
     .body {
-       max-height: auto;
+        width: 100vh;
     }
 
     .section {
-       height:auto;
-    }
-
-    .main {
-        display: flex;
-        max-height: 2000vh;
+       height:100%;
     }
 
     .container {
         margin-top: 6rem;
         padding-top: auto;
+        width: 100%;
     }
 
     .aboutme_h1 {
@@ -1374,13 +1363,14 @@ input:invalid {
 
 @media screen and (max-width: 768px) {
 
-    .html {
-    display: flex;
+    html {
+    font-size: 100%;
     }
 
     .section {
     width: 100%;
-    padding:0 0 0 0;
+    padding:0;
+    display: flex;
     }
 
     .container {
@@ -1399,7 +1389,7 @@ input:invalid {
     .image-section {
     float:none;
     width: 50%;
-    display:block;
+    display:none;
     margin:auto;
     text-align: center;  
     }
@@ -1421,6 +1411,10 @@ input:invalid {
     font-size: 3rem;
     }
 
+    .footer {
+        margin-bottom: 0%;
+    }
+
 }
 
 
@@ -1430,8 +1424,6 @@ input:invalid {
 
     html {
     font-size: 100%;
-    width: 100%;
-    display: flex;
     }
 
     body{
@@ -1473,8 +1465,6 @@ input:invalid {
 
     html {
     font-size: 100%;
-    width: 50%;
-    display: flex;
     }
 
     body{
@@ -1482,8 +1472,6 @@ input:invalid {
     padding: 0;
     width: 100%;
     }
-
-
 
     .nav-pc{
     padding: 1rem 2rem;
@@ -1575,21 +1563,20 @@ input:invalid {
 @media screen and (max-width:480px) {
 
     html {
-    font-size: 100%;
-    width: 100vh;
+    font-size: 50%;
     display: flex;
     }
 
     body{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vh;
     }
     
     .contact {
     font-size: 1.5rem;
-    display: flex;
     align-items: center;
+    width: 100vh;
     }
 
     .content-contact {
@@ -1601,14 +1588,14 @@ input:invalid {
     }
 
     .contactForm  h2 {
-        display: flex;
-        align-items: center;
+    display: flex;
+    align-items: center;
     }
 
     .container1 {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
     }
 
 
@@ -1638,20 +1625,24 @@ input:invalid {
        font-size: 1.5rem;
     }
 
+    .footer {
+        width: 100vh;
+    }
+
 }
 
 @media screen  and (max-width:768px) {
 
     html {
     font-size: 100%;
-    max-width: 100vh;
     display: flex;
+    width: 100%;
     }
 
     body{
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+    width: 100%;
     }
     
     .header .main {
@@ -1659,9 +1650,9 @@ input:invalid {
     }
 
     .container1 {
-    display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100vh;
     }
 
     .container1 .contactInfo .box .text {
