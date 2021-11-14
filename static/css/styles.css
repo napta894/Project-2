@@ -1171,6 +1171,13 @@ input:invalid {
 
     html {
     font-size: 100%;
+    display:flex;
+    width: 100%;;
+    }
+
+    .body {
+    margin:0;
+    padding:0;
     }
 
     .nav-pc{
@@ -1221,7 +1228,7 @@ input:invalid {
     }
 
     .about .about-box {
-    width: 100%;
+    width: 0%;
     }
 
     .about-box {
