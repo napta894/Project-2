@@ -48,9 +48,6 @@
 
 html
 {
-     overflow: hidden;
-     height: auto;
-     overflow-y: auto;
      scroll-behavior: smooth;
 }
 
@@ -1065,6 +1062,18 @@ input:invalid {
 
 @media screen and (max-width: 480px) {
 
+    html {
+    font-size: 100%;
+    }
+
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
     #nav-pc {
     display: none;
     }
@@ -1086,12 +1095,9 @@ input:invalid {
     }
 
 
-    .home {
-    height:100vh;
-    }
-
     .home-content {
     padding-top: 25rem;
+    width: 100%;
     }
 
     .home-content-text h1 {
@@ -1103,6 +1109,7 @@ input:invalid {
     display: none;
     }
 
+
     .scroll-down {
     display: none;
 
@@ -1110,7 +1117,6 @@ input:invalid {
 
     .section{
     padding:5rem 4rem 5rem 10rem;
-
     }
     
     .about {
@@ -1119,18 +1125,17 @@ input:invalid {
     
     .about .about-box {
     width: 100%;
-    display: block;
     }
 
     .about-box {
     padding-right: 2rem;
     padding-left:1rem;
     }
+
     .about-box
     .about .about-box:nth-child(2) {
     margin-top: 0.5rem;
     }
-
 
     .about_btn .btn1 {
     margin:10px 0 0 0;
@@ -1160,9 +1165,6 @@ input:invalid {
 
     .footer {
     font-size:1.7;
-    display:block;  
-    margin:auto;
-    margin-bottom: 0;
     }
 }
 
@@ -1171,13 +1173,14 @@ input:invalid {
 
     html {
     font-size: 100%;
-    display:flex;
-    width: 100%;;
     }
 
-    .body {
+    body {
     margin:0;
     padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
 
     .nav-pc{
@@ -1227,13 +1230,8 @@ input:invalid {
     height:100%;
     }
 
-    .about .about-box {
-    width: 0%;
-    }
-
     .about-box {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
     }
 
     .about .about-box:nth-child(2) {
@@ -1272,14 +1270,6 @@ input:invalid {
 
 @media screen and (max-width:1024px) {
  
-    .body {
-      display:flex;
-    }
-
-    html {
-    height:50vh;
-    }
-
     .home-content {
         height:50vh;
     }
@@ -1318,7 +1308,14 @@ input:invalid {
 
     html {
     font-size: 100%;
+    }
+
+    body {
+    margin:0;
+    padding:0;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
 
     .section {
@@ -1358,16 +1355,21 @@ input:invalid {
         height:100%;
     }
     
-    .footer {
-        margin-bottom: 0;
-    }
-    
+
 }
 
 @media screen and (max-width: 768px) {
 
     html {
     font-size: 100%;
+    }
+
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
 
     .section {
@@ -1412,10 +1414,6 @@ input:invalid {
     font-size: 3rem;
     }
 
-    .footer {
-    margin-bottom: 0%;
-    }
-
 }
 
 
@@ -1427,9 +1425,12 @@ input:invalid {
     font-size: 100%;
     }
 
-    body{
-    margin: 0;
-    padding: 0;
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
     
 
@@ -1467,9 +1468,12 @@ input:invalid {
     font-size: 100%;
     }
 
-    body{
-    margin: 0;
-    padding: 0;
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
 
     .nav-pc{
@@ -1509,7 +1513,6 @@ input:invalid {
 
     .nav-pc{
     font-size: 3rem;
-
     }
 
     #nav-pc a {
@@ -1563,12 +1566,14 @@ input:invalid {
 
     html {
     font-size: 50%;
-    display: flex;
     }
 
-    body{
-    margin: 0;
-    padding: 0;
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     }
     
     .contact {
@@ -1626,12 +1631,13 @@ input:invalid {
 
     html {
     font-size: 100%;
-    display: flex;
     }
 
-    body{
-    margin: 0;
-    padding: 0;
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
     }
     
     .header .main {
@@ -1691,12 +1697,8 @@ input:invalid {
 
 @media screen and (max-width:1024px) {
  
-    .body {
-      display:block;
-    }
-
-    html {
-    height:50vh;
+    body {
+    display:block;
     }
 
     .container1 .contactForm{ 
