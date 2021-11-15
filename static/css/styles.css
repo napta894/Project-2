@@ -1097,7 +1097,6 @@ input:invalid {
 
     .home-content {
     padding-top: 25rem;
-    width: 100%;
     }
 
     .home-content-text h1 {
@@ -1129,7 +1128,7 @@ input:invalid {
 
     .about-box {
     padding-right: 2rem;
-    padding-left:1rem;
+    padding: 2rem;
     }
 
     .about-box
@@ -1138,7 +1137,7 @@ input:invalid {
     }
 
     .about_btn .btn1 {
-    margin:10px 0 0 0;
+    margin:0 0 0 0;
     }
 
     .about .about-box p{
@@ -1146,7 +1145,7 @@ input:invalid {
     }
     
     .work {
-    padding: 2rem 2rem;
+    margin-top: 3rem;
     }
 
     .work-container::after {
@@ -1166,6 +1165,7 @@ input:invalid {
     .footer {
     font-size:1.7;
     }
+
 }
 
 @media screen and (max-width:768px) {
@@ -1186,7 +1186,6 @@ input:invalid {
     .nav-pc{
     padding: 1rem 2rem;
     font-size: 1.5rem;
-
     }
 
     #nav-pc a {
@@ -1223,7 +1222,7 @@ input:invalid {
     }
 
     .section{
-    padding: 7rem 8rem 10rem 20rem;
+    padding: 7rem 8rem 10rem 7rem;
     }
     
     .about {
@@ -1231,7 +1230,7 @@ input:invalid {
     }
 
     .about-box {
-    margin-left: 2rem;
+    margin-left: 0;
     }
 
     .about .about-box:nth-child(2) {
@@ -1256,24 +1255,21 @@ input:invalid {
     align-items: center;
     }
 
-    .footer {
-    display: block;
-    flex-direction: column;
-    }
-
     img {
     width: 100%;
     height: auto;
     }
 
+    *, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+
 }
 
 @media screen and (max-width:1024px) {
  
-    .home-content {
-        height:50vh;
-    }
-
     *, *::before, *::after {
         box-sizing: border-box;
         padding: 0;
@@ -1319,7 +1315,7 @@ input:invalid {
     }
 
     .section {
-     height:100%;
+    height:0;
     }
 
     .container {
@@ -1697,10 +1693,6 @@ input:invalid {
 
 @media screen and (max-width:1024px) {
  
-    body {
-    display:block;
-    }
-
     .container1 .contactForm{ 
     width: 100%;
     }
