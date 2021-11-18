@@ -943,7 +943,6 @@ p {
 }
 
 .contactForm {
-    width: 100%;
     box-sizing: border-box;
 }
 
@@ -954,7 +953,6 @@ p {
 }
 
 .contactForm .inputBox {
-    width: 100%;
     margin-top:10px;
 }
 
@@ -977,7 +975,6 @@ input[type=text]
 }
 
 .input_email  {
-
     padding:10px; 
     margin-top: 10px;
     margin: 10px 0;
@@ -1030,10 +1027,10 @@ input:invalid {
   background-color: white;
   text-align: center;
   color: black;
-  padding: 10px;
   margin: 15px;
-  margin-top: 15px;
 }
+
+
 .btn5:hover {
     background-color: #9C8194;
 }
@@ -1555,7 +1552,6 @@ input:invalid {
     .contact {
     align-items: center;
     margin-top: 2rem;
-    width: auto;
     margin-left: 1rem;
     margin-right: 1rem;
     }
@@ -1566,6 +1562,8 @@ input:invalid {
 
     .contactInfo {
     font-size:1.5rem;
+    margin-left: 1rem;
+    margin-right:1rem;
     }
 
     .contactForm  h2 {
@@ -1584,6 +1582,7 @@ input:invalid {
     font-size: 2rem;
     color: #9C8194;
     font-weight: 400;
+    text-align: center;
     }
     
     .inputBox {
@@ -1596,6 +1595,11 @@ input:invalid {
 
     ::-webkit-input-placeholder { 
     font-size: 0.5rem;
+    }
+
+    .btn5 {
+    font-size: 1.5rem;
+    text-align: center;
     }
 
 }
@@ -1636,6 +1640,8 @@ input:invalid {
 
     .container1 {
     font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     }
 
     .contactInfo {
@@ -1647,8 +1653,8 @@ input:invalid {
     }
 
     .container1 .contactInfo .box .text {
-      font-size:2rem;
-     }
+    font-size:2rem;
+    }
 
      /* Chrome/Opera/Safari */
     ::-webkit-input-placeholder { 
