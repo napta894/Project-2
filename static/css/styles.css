@@ -874,9 +874,7 @@ p {
 .contact {
     position:relative;
     min-height: 80vh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
+    padding-top:4rem;
     align-items: center;
     flex-direction: column;
 }
@@ -896,11 +894,10 @@ p {
 }
 
 .container1 {
-    width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:30px;
+    margin-top:20px;
 
 }
 
@@ -938,7 +935,7 @@ p {
 
     font-size: 3rem;
     font-family: Helvetica, sans-serif;
-    justify-content: center;
+    text-align: center;
 }
 
 .contacth3 {
@@ -1161,6 +1158,9 @@ input:invalid {
     color:#9C8194;
     }
 
+    .footer {
+    font-size:1.7;
+    }
 
 }
 
@@ -1194,6 +1194,7 @@ input:invalid {
     width:189px;
     height:50px;
     }
+
 
     .home-content {
     padding-top: 10rem;
@@ -1274,6 +1275,26 @@ input:invalid {
 
 @media screen and (max-width: 480px) {
 
+    #nav-pc {
+    display: none;
+    }
+
+    #nav-toggle {
+    display:block;
+    width: 50vh;
+    text-align: right;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    }
+    
+    .logo-style {
+       display:block;
+       position: relative;
+       float: initial;
+       width:189vh;
+       height:50vh;
+    }
+
     html {
     font-size: 100%;
     }
@@ -1286,38 +1307,18 @@ input:invalid {
     min-height: 100vh;
     }
 
-    #nav-pc {
-    display: none;
-    }
-
-    #nav-toggle {
-    display:block;
-    text-align: right;
-    padding: 1rem 2rem;
-    font-size: 3rem;
-    }
-    
-
-    .logo-style {
-    display:block;
-    position: relative;
-    float: initial;
-    width:189vh;
-    height:50vh;
-    }
-
     .section {
-    height:600vh;
+    height:310vh;
     }
 
     .container {
-    margin-top: 6rem;
-    padding-top: auto;
-    width: 100%;
+        margin-top: 6rem;
+        padding-top: auto;
+        width: 100%;
     }
 
     .aboutme_h1 {
-    margin-top: 3rem;
+        margin-top: 3rem;
     }
 
     .content-section {
@@ -1340,9 +1341,10 @@ input:invalid {
     }
 
     .btn4 {
-        height:50px;
+        height:100%;
     }
     
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1356,19 +1358,22 @@ input:invalid {
     padding:0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     }
 
     .section {
-    padding: 0;
-    height: 310vh;
+    padding:0;
+    display: flex;
     }
 
     .container {
+    width: 80%;
     display: block;
     margin:auto;
     }
 
     .content-section {
+    float:none;
     display:block;
     margin:auto;
     }
@@ -1561,7 +1566,7 @@ input:invalid {
     }
     
     .contact {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     align-items: center;
     }
 
@@ -1639,8 +1644,7 @@ input:invalid {
     }
 
     .contact {
-    font-size: 4rem;
-    display: flex;
+    font-size: 2rem;
     }
 
     .box {
