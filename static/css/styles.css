@@ -872,7 +872,7 @@ p {
 /*Contact page Css */
 
 .contact {
-    padding-top:4rem;
+    padding-top: 4rem;
     align-items: center;
 }
 
@@ -944,7 +944,6 @@ p {
 
 .contactForm {
     width: 40%;
-    padding: 40px;
     box-sizing: border-box;
 }
 
@@ -964,7 +963,6 @@ p {
 
 .contactForm .inputBox input {
    width:100%;
-   padding: 5px 0;
    font-size: 2rem;
    margin: 10px 0;
 }
@@ -1561,7 +1559,6 @@ input:invalid {
     }
     
     .contact {
-    position: relative;
     align-items: center;
     margin-top: 2rem;
     }
@@ -1629,6 +1626,7 @@ input:invalid {
 
     .contact {
     font-size: 2rem;
+    width: 100%;
     }
 
     .box {
