@@ -943,7 +943,7 @@ p {
 }
 
 .contactForm {
-    width: 40%;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -951,24 +951,20 @@ p {
     font-size: 3rem;
     color: #9C8194;
     font-weight: 300;
-
 }
 
 .contactForm .inputBox {
-    position:relative;
     width: 100%;
     margin-top:10px;
-
 }
 
 .contactForm .inputBox input {
    width:100%;
    font-size: 2rem;
-   margin: 10px 0;
 }
 
 .inputBox {
-    font-size:2rem;
+font-size:2rem;
 }
 
 input[type=text]
@@ -978,7 +974,6 @@ input[type=text]
     margin: 10px 5px;
     margin-top: 10px;
     font-size: 2rem;
-
 }
 
 .input_email  {
@@ -999,8 +994,7 @@ input[type=text]
 }
 
 input {
-    width: 50%;
-    display: block;
+    width: 100%;
     border: none;
 }
 
@@ -1547,7 +1541,7 @@ input:invalid {
 @media screen and (max-width:480px) {
 
     html {
-    font-size: 50%;
+    font-size: 100%;
     }
 
     body {
@@ -1561,6 +1555,9 @@ input:invalid {
     .contact {
     align-items: center;
     margin-top: 2rem;
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
     }
 
     .content-contact {
@@ -1572,12 +1569,10 @@ input:invalid {
     }
 
     .contactForm  h2 {
-    display: flex;
     align-items: center;
     }
 
     .container1 {
-    display: flex;
     flex-direction: column;
     }
 
@@ -1586,18 +1581,21 @@ input:invalid {
     }
 
     .contactForm h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #9C8194;
     font-weight: 400;
     }
     
-
     .inputBox {
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
 
     .contactInfo p {
     font-size: 1.5rem;
+    }
+
+    ::-webkit-input-placeholder { 
+    font-size: 0.5rem;
     }
 
 }
@@ -1626,7 +1624,6 @@ input:invalid {
 
     .contact {
     font-size: 2rem;
-    width: 100%;
     }
 
     .box {
@@ -1655,7 +1652,7 @@ input:invalid {
 
      /* Chrome/Opera/Safari */
     ::-webkit-input-placeholder { 
-    font-size: 2rem; }
+    font-size: 1.5rem; }
 }
 
 
