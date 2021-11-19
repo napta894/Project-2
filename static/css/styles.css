@@ -1028,9 +1028,8 @@ input:invalid {
   text-align: center;
   color: black;
   margin: 15px;
+  margin-top: 15px;
 }
-
-
 .btn5:hover {
     background-color: #9C8194;
 }
@@ -1066,6 +1065,7 @@ input:invalid {
     font-size: 3rem;
     }
     
+
     .logo-style {
     display:block;
     position: relative;
@@ -1087,8 +1087,10 @@ input:invalid {
     display: none;
     }
 
+
     .scroll-down {
     display: none;
+
     }
 
     .section{
@@ -1543,6 +1545,7 @@ input:invalid {
     padding:0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     }
     
     .contact {
@@ -1582,7 +1585,7 @@ input:invalid {
     }
     
     .inputBox {
-    font-size:1.5rem;
+    font-size: 1.5rem;
     }
 
     .contactInfo p {
@@ -1613,6 +1616,7 @@ input:invalid {
     flex-direction: column;
     }
     
+
     .container1 {
     align-items: center;
     }
