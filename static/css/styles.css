@@ -1289,7 +1289,7 @@ input:invalid {
     }
 
     .section {
-    height:300vh;
+    min-height:310vh;
     }
 
     .container {
@@ -1593,7 +1593,7 @@ input:invalid {
 
     .btn5 {
     font-size: 1.5rem;
-    text-align: center;
+    margin: 0;
     }
 
 }
