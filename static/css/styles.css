@@ -1059,14 +1059,13 @@ input:invalid {
     #nav-toggle {
     display:block;
     text-align: right;
-    padding: 1rem 2rem;
-    font-size: 3rem;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
     }
     
 
     .logo-style {
     display:block;
-    position: relative;
     float: initial;
     width:189vh;
     height:50vh;
@@ -1160,18 +1159,16 @@ input:invalid {
     }
 
     .nav-pc{
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-size: 1.5rem;
     }
 
     #nav-pc a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
 
     .logo-style {
-    display:inline;
     position: relative;
-    float: initial;
     width:189px;
     height:50px;
     }
@@ -1262,16 +1259,13 @@ input:invalid {
 
     #nav-toggle {
     display:block;
-    width: 50vh;
     text-align: right;
-    padding: 1rem 2rem;
-    font-size: 3rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
     }
     
     .logo-style {
-       display:block;
        position: relative;
-       float: initial;
        width:189vh;
        height:50vh;
     }
@@ -1339,6 +1333,7 @@ input:invalid {
     flex-direction: column;
     min-height: 100vh;
     }
+    
 
     .section {
     padding:0;
@@ -1400,7 +1395,6 @@ input:invalid {
     min-height: 100vh;
     }
     
-
     .container{
     display: flex;
     flex-direction: column;
@@ -1444,9 +1438,8 @@ input:invalid {
     }
 
     .nav-pc{
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-
+    padding: 1rem 1rem;
+    font-size: 1rem;
     }
     
     .container {
@@ -1459,9 +1452,7 @@ input:invalid {
     }
 
     .logo-style {
-    display:inline;
-    position: relative;
-    float: initial;
+    position: var(--z-fixed);
     width:189px;
     height:50px;
     }
@@ -1476,23 +1467,6 @@ input:invalid {
 }
 
 @media screen and (max-width:1024px) {
-
-
-    .nav-pc{
-    font-size: 3rem;
-    }
-
-    #nav-pc a {
-    font-size: 4rem;
-    }
-
-    .logo-style {
-    display:inline;
-    position: relative;
-    float: initial;
-    width:189px;
-    height:50px;
-    }
 
     img {
     width: 100%;
@@ -1516,7 +1490,7 @@ input:invalid {
     }
 
     .portfolio_main {
-        display: block;
+    display: block;
     }
 
 }
@@ -1546,6 +1520,7 @@ input:invalid {
     .contact {
     align-items: center;
     margin-top: 2rem;
+    margin-bottom:2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     }
@@ -1555,7 +1530,7 @@ input:invalid {
     }
 
     .contactInfo {
-    font-size:1.5rem;
+    font-size:1rem;
     margin-left: 1rem;
     margin-right:1rem;
     }
@@ -1569,7 +1544,7 @@ input:invalid {
     }
 
     .contactInfo .box .text {
-    font-size:1.5rem;
+    font-size:1rem;
     }
 
     .contactForm h2 {
@@ -1580,11 +1555,11 @@ input:invalid {
     }
     
     .inputBox {
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
 
     .contactInfo p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
 
     ::-webkit-input-placeholder { 
@@ -1610,8 +1585,8 @@ input:invalid {
     display: flex;
     flex-direction: column;
     }
-    
 
+    
     .container1 {
     align-items: center;
     }
@@ -1621,19 +1596,20 @@ input:invalid {
     }
 
     .contact {
-    font-size: 2rem;
+    font-size: 1rem;
+    margin-bottom:2rem;
     }
 
     .box {
-    font-size: 2rem;
+    font-size: 1rem;
     }
 
     .contactInfo .text {
-    font-size: 2rem;
+    font-size: 1rem;
     }
 
     .container1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     }
@@ -1644,15 +1620,23 @@ input:invalid {
 
     .container1 .contactForm{ 
     padding-top: 2rem;
+    font-size: 1rem;
+    }
+
+    .inputBox {
+    font-size:1.5rem;
     }
 
     .container1 .contactInfo .box .text {
-    font-size:2rem;
+    font-size:1rem;
     }
 
+    .btn5 {
+        font-size:1rem;
+    }
      /* Chrome/Opera/Safari */
     ::-webkit-input-placeholder { 
-    font-size: 1.5rem; }
+    font-size: 1rem; }
 }
 
 
