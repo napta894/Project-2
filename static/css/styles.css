@@ -877,13 +877,12 @@ p {
 }
 
 .contact .content {
-    max-width: 50rem;
     text-align: center;
 }
 
 .content-contact {
     font-family:Helvetica, sans-serif; 
-    font-size: 2rem ; 
+    font-size: 1.5rem ; 
     align-content:center; 
     line-height: 30px;
     color:#9C8194;   
@@ -894,13 +893,15 @@ p {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:20px;
+    margin-top:2rem;
+    margin-bottom:2rem;
 
 }
 
 .contactInfo {
     font-family:Helvetica, sans-serif; 
-    font-size: 1.5rem ; 
+    font-size: 1rem ; 
+    margin:20px;
 }
 
 .container1 .contactInfo {
@@ -910,7 +911,6 @@ p {
 
  .container1 .contactInfo .box {
     position:relative;
-    padding: 20px 30px;
     display: flex;
  }
 
@@ -918,7 +918,7 @@ p {
 
     display:flex;
     margin-left: 10px;
-    font-size:2rem;
+    font-size:1.5rem;
     flex-direction: column;
   }
 
@@ -928,26 +928,26 @@ p {
 
 .contacth1 {
 
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: Helvetica, sans-serif;
     text-align: center;
 }
 
 .contacth3 {
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Helvetica, sans-serif;
     color:black;
     text-align: center;
-    padding: 1rem;
 }
 
 .contactForm {
     box-sizing: border-box;
+    margin: 15px;
 }
 
  .contactForm h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #9C8194;
     font-weight: 300;
 }
@@ -958,18 +958,17 @@ p {
 
 .contactForm .inputBox input {
    width:100%;
-   font-size: 2rem;
+   font-size: 1rem;
 }
 
 .inputBox {
-font-size:2rem;
+font-size:1.5rem;
 }
 
 input[type=text]
 
  {
     padding:10px;
-    margin: 10px 5px;
     margin-top: 10px;
     font-size: 2rem;
 }
@@ -991,7 +990,6 @@ input[type=text]
 }
 
 input {
-    width: 100%;
     border: none;
 }
 
@@ -1007,7 +1005,7 @@ input:invalid {
 }
 
 .contactForm .inputBox input [type="submit"] {
-    width: 100px;
+    
     cursor:pointer;
     padding:10px;
     font-size: 2rem;
@@ -1301,12 +1299,9 @@ input:invalid {
 
     .download-resume {
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
     }
 
-    .info {
-    font-size: 2rem;
-    }
 
     .image-section img {
     margin-top: 4rem;
@@ -1373,7 +1368,7 @@ input:invalid {
     }
 
     .content-section .aboume_p {
-    font-size: 3rem;
+    font-size: 2rem;
     }
 
 }
@@ -1612,7 +1607,13 @@ input:invalid {
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    }   
+    
+    .contactForm  h2 {
+    align-items: center;
+    font-size: 1.5rem;
     }
+
 
     .contactInfo {
     font-size: 1.5rem;
@@ -1624,7 +1625,7 @@ input:invalid {
     }
 
     .inputBox {
-    font-size:1.5rem;
+    font-size:1rem;
     }
 
     .container1 .contactInfo .box .text {
@@ -1645,6 +1646,10 @@ input:invalid {
     *, *::before, *::after {
     box-sizing: border-box;
     padding: 0;
+    }
+
+    .body {
+        font-size: 50%;
     }
 
 }
