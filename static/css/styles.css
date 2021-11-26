@@ -894,8 +894,7 @@ p {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:2rem;
-    margin-bottom: 2rem;
+    margin-top:20px;
 
 }
 
@@ -911,14 +910,15 @@ p {
 
  .container1 .contactInfo .box {
     position:relative;
-    padding: 20px 20px;
+    padding: 20px 30px;
     display: flex;
  }
 
   .container1 .contactInfo .box .text {
 
     display:flex;
-    font-size:1.5rem;
+    margin-left: 10px;
+    font-size:2rem;
     flex-direction: column;
   }
 
@@ -947,7 +947,7 @@ p {
 }
 
  .contactForm h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #9C8194;
     font-weight: 300;
 }
@@ -958,7 +958,7 @@ p {
 
 .contactForm .inputBox input {
    width:100%;
-   font-size: 1rem;
+   font-size: 2rem;
 }
 
 .inputBox {
@@ -969,8 +969,9 @@ input[type=text]
 
  {
     padding:10px;
+    margin: 10px 5px;
     margin-top: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .input_email  {
@@ -990,6 +991,7 @@ input[type=text]
 }
 
 input {
+    width: 100%;
     border: none;
 }
 
@@ -1058,7 +1060,7 @@ input:invalid {
     display:block;
     text-align: right;
     padding: 1rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
     
 
@@ -1158,7 +1160,7 @@ input:invalid {
 
     .nav-pc{
     padding: 1rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
 
     #nav-pc a {
