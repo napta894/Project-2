@@ -1093,7 +1093,7 @@ input:invalid {
     }
     
     .about {
-    height: 150vh;
+    height: 100vh;
     }
     
     .about .about-box {
@@ -1102,6 +1102,7 @@ input:invalid {
 
     .about-box {
     padding-right: 2rem;
+    padding: 2rem;
     }
 
     .about-box
@@ -1111,6 +1112,11 @@ input:invalid {
 
     .about_btn .btn1 {
     margin:0 0 0 0;
+    }
+
+    .about-box h2 {
+        text-align: center;
+        padding-bottom: 2rem;
     }
 
     .about .about-box p{
@@ -1199,12 +1205,13 @@ input:invalid {
     }
     
     .about {
-    height:180vh;
+    height:auto;
     }
 
     .about-box {
-    margin-left: 2.5rem;
+    margin-left: 0;
     }
+
 
     .about .about-box:nth-child(2) {
     margin-top: 0.5rem;
@@ -1215,8 +1222,18 @@ input:invalid {
     margin-bottom: 1rem;
     }
 
+    .about .about-box h2 {
+    font-size: 1.5rem;
+    padding-bottom:0.5rem;
+    }
+
+
     .about .about-box p{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    }
+
+    .info-1 {
+    font-size: 1.5rem;
     }
 
     .work {
@@ -1226,6 +1243,7 @@ input:invalid {
     .work-h1 {
     text-align: center;
     align-items: center;
+    font-size: 2rem;
     }
 
     img {
@@ -1284,11 +1302,10 @@ input:invalid {
     }
 
     .section {
-    min-height:310vh;
+    height:310;
     }
 
     .container {
-    margin-top: 6rem;
     padding-top: auto;
     }
 
@@ -1315,6 +1332,7 @@ input:invalid {
     .btn4 {
     height:100%;
     }
+
     
 }
 
@@ -1335,7 +1353,7 @@ input:invalid {
 
     .section {
     padding:0;
-    height: 140vh;
+    height: auto;
     }
 
     .container {
@@ -1517,10 +1535,6 @@ input:invalid {
     
     .contact {
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom:2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
     }
 
     .content-contact {
@@ -1529,8 +1543,6 @@ input:invalid {
 
     .contactInfo {
     font-size:1rem;
-    margin-left: 1rem;
-    margin-right:1rem;
     }
 
     .contactForm  h2 {
@@ -1539,6 +1551,10 @@ input:invalid {
 
     .container1 {
     flex-direction: column;
+    }
+
+    .contactForm .contactInfo {
+        width: 100%;
     }
 
     .contactInfo .box .text {
@@ -1587,6 +1603,7 @@ input:invalid {
     
     .container1 {
     align-items: center;
+    flex-direction: column;
     }
 
     .container1 .contactInfo .box .text {
@@ -1600,6 +1617,10 @@ input:invalid {
 
     .box {
     font-size: 1rem;
+    }
+
+    .icon {
+        font-size: 50px;
     }
 
     .contactInfo .text {
