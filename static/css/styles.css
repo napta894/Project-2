@@ -442,7 +442,7 @@ p {
 }
 
 .about .profile {
-    padding-right: 3rem;
+    padding-right: 5rem;
     text-align: justify;
 }
 
@@ -1086,13 +1086,9 @@ input:invalid {
     width: 100%;
     }
 
-    .about .profile {
-    text-align: justify;
-}
-
     .about-box {
-    padding-right: 1rem;
-    padding: 1rem;
+    padding-right: 2rem;
+    padding: 2rem;
     }
 
     .about-box
@@ -1111,7 +1107,6 @@ input:invalid {
 
     .about .about-box p{
     font-size: 2rem;
-    margin:0;
     }
     
     .work {
@@ -1203,13 +1198,8 @@ input:invalid {
     height:auto;
     }
 
-    .about .profile {
-    padding-right: 0;
-    text-align: justify;
-}
-
     .about-box {
-    margin-left: 2rem;
+    margin-left: 0;
     }
 
 
