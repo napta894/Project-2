@@ -157,8 +157,9 @@ body {
 }
 
 .hamburger{
-    position:absolute;
-
+    position:relative;
+    right:50%;
+    left: 0;
 }
 
 .navbar li{
@@ -378,20 +379,6 @@ p {
 
 }
 
-@keyframes MoveinLeft {
-    0% {
-        opacity:0;
-        transform: translateX(-10rem);
-    }
-
-    80% {
-        transform: translateX(1rem);
-    }
-    
-    100% {
-        transform: translateX(0);
-    }
-}
 
 .mainh1 {
     font-family: Helvetica, sans-serif, serif; 
@@ -534,14 +521,13 @@ p {
     display: inline-block;
     transition: all .3s ease-out;
     line-height: 5.6rem;
-    margin: 5rem 0;
+    margin: 3rem 0;
     text-decoration: none;    
     border-style: solid;
     background-color: #9C8194;
     color:black;
     font-size: 1.4rem;
-    margin-left: 5rem;
-    height:6rem;
+    height: 5rem;
 }
 
 .about_btn .btn1:hover {
@@ -649,17 +635,18 @@ p {
     height:59px;
     background-color: white; 
 }
+
 .btn2:hover {
     background-color: #D6C2C2; 
 }
 
 .btn2-container {
-    float: left;
+    display: flex;
+    justify-content: center;
     padding-top: 2rem;
     margin-bottom:15px;
     margin-left: 50px;
 }
-
 
 
 /*Aboutme page Css */
@@ -847,7 +834,6 @@ p {
     width:150px;
     height:59px;
     background-color: white;
-    float: left;
   }
 
   .btn3:hover {
@@ -1161,17 +1147,21 @@ input:invalid {
     min-height: 100vh;
     }
 
-    .nav-pc{
+    #nav-pc {
+    display: none;
+    }
+
+    #nav-toggle {
+    display:flex;
+    position: absolute;
     padding: 1rem 1rem;
     font-size: 1rem;
     }
 
-    #nav-pc a {
-    font-size: 1rem;
-    }
-
     .logo-style {
-    position: relative;
+    float: right;
+    display: flex;
+    justify-items: center;
     width:189px;
     height:50px;
     }
@@ -1206,6 +1196,7 @@ input:invalid {
     
     .about {
     height:auto;
+    margin: 2rem;
     }
 
     .about-box {
@@ -1676,4 +1667,19 @@ input:invalid {
         font-size: 50%;
     }
 
+}
+
+@keyframes MoveinLeft {
+    0% {
+        opacity:0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
 }
