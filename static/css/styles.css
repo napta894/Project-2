@@ -225,11 +225,11 @@ body {
 
  .navbar {
     display: block;
-     background-color: #F3EFE9;
-     position: fixed;
-     z-index: 1;
-     text-align: center;
-     padding-top: 90px;
+    background-color: #F3EFE9;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    padding-top: 90px;
     transform: translate(-110%);
     transition: transform 0.5s ease-in-out;
     padding-left: 5px;
@@ -442,11 +442,11 @@ p {
 }
 
 .about .profile {
-    padding-right: 5rem;
+    padding-right: 2rem;
     text-align: justify;
 }
 
-.about .about-box h2 {
+.about-box  h2 {
     font-size: 2rem;
     padding-bottom:1.5rem;
     margin-left: 2rem;
@@ -1087,8 +1087,8 @@ input:invalid {
     }
 
     .about-box {
-    padding-right: 2rem;
-    padding: 2rem;
+    padding-right: 0;
+    padding: 1rem;
     }
 
     .about-box
@@ -1101,8 +1101,8 @@ input:invalid {
     }
 
     .about-box h2 {
-        text-align: center;
-        padding-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
     }
 
     .about .about-box p{
@@ -1166,7 +1166,6 @@ input:invalid {
     height:50px;
     }
 
-
     .home-content {
     padding-top: 10rem;
     }
@@ -1198,13 +1197,10 @@ input:invalid {
     height:auto;
     }
 
-    .about-box {
-    margin-left: 0;
-    }
-
 
     .about .about-box:nth-child(2) {
     margin-top: 0.5rem;
+    margin-left: 1rem;
     }
 
     .about_btn .btn1 {
@@ -1220,6 +1216,9 @@ input:invalid {
 
     .about .about-box p{
     font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 0;
+    padding: 0;
     }
 
     .info-1 {
