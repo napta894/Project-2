@@ -442,14 +442,17 @@ p {
 }
 
 .about .profile {
-    padding-right: 2rem;
+    padding-right: 1rem;
     text-align: justify;
 }
 
 .about-box  h2 {
     font-size: 2rem;
     padding-bottom:1.5rem;
-    margin-left: 2rem;
+}
+
+.profile-h2 {
+    margin-left:1rem;
 }
 
 .about .about-box p {
@@ -463,12 +466,16 @@ p {
     line-height: 1.1; 
     text-align: justify;
     position: relative; 
-    margin-left: 2rem;
+    margin-left: 1rem;
     color:black;
 }
 
 .about .profile p span {
     font-weight: bold;
+}
+
+.skills-h2 {
+    margin-left: 1rem;
 }
 
 .skill-container {
@@ -1086,11 +1093,6 @@ input:invalid {
     width: 100%;
     }
 
-    .about-box {
-    padding-right: 0;
-    padding: 1rem;
-    }
-
     .about-box
     .about .about-box:nth-child(2) {
     margin-top: 0.5rem;
@@ -1197,10 +1199,8 @@ input:invalid {
     height:auto;
     }
 
-
     .about .about-box:nth-child(2) {
     margin-top: 0.5rem;
-    margin-left: 1rem;
     }
 
     .about_btn .btn1 {
@@ -1216,9 +1216,6 @@ input:invalid {
 
     .about .about-box p{
     font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 0;
-    padding: 0;
     }
 
     .info-1 {
