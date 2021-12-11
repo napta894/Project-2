@@ -490,6 +490,11 @@ p {
     color:var(--first-color);
     margin-bottom: 0.8rem;
     background-color:var(--first-color-alt);
+    margin-left: 1rem;
+}
+
+.skills-p {
+    margin-left: 1rem;
 }
 
 .html {
@@ -1218,6 +1223,11 @@ input:invalid {
     font-size: 1.5rem;
     }
 
+    .about-box .profile 
+    {
+        margin: 0 0 0 0;
+    }
+    
     .info-1 {
     font-size: 1.5rem;
     }
