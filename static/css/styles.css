@@ -338,6 +338,7 @@ hr {
 }
 .button:hover {
     background-color: #9C8194;
+    cursor: pointer;
 }
 
 .btn {
@@ -544,6 +545,7 @@ p {
 
 .about_btn .btn1:hover {
     background-color: #776571;
+    cursor: pointer;
 }
 
 
@@ -650,13 +652,14 @@ p {
 
 .btn2:hover {
     background-color: #D6C2C2; 
+    cursor: pointer;
 }
 
 .btn2-container {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
-    margin-bottom:15px;
+    margin-bottom:3rem;
     margin-left: 50px;
 }
 
@@ -766,6 +769,7 @@ p {
 
 .btn4:hover {
   background-color: #776571;
+  cursor: pointer;
 }
 
 
@@ -818,7 +822,7 @@ p {
 }
 
 .portfolio_right {
-    padding: 100px 100px 0px 20px;
+    padding: 3rem 3rem 3rem 1rem;
 }
 
 .portfolio_right h2 {
@@ -832,7 +836,6 @@ p {
     font-weight: 200;
     color: black;
     text-align: justify;
-    margin-left: 20px;
     margin-bottom:50px;
     line-height: 1.5;
 }
@@ -850,6 +853,7 @@ p {
 
   .btn3:hover {
     background-color: #9C8194;
+    cursor: pointer;
   }
 
 .portfolio_projects {
@@ -1026,6 +1030,7 @@ input:invalid {
 }
 .btn5:hover {
     background-color: #9C8194;
+    cursor:pointer;
 }
 
 
@@ -1301,18 +1306,17 @@ input:invalid {
     height:310;
     }
 
-    .container {
+    .content-section {
     padding-top: auto;
+    margin-top: 7rem;
+    width: 100%;
     }
 
     .aboutme_h1 {
     margin-top: 3rem;
     }
 
-    .content-section {
-    margin-top: 7rem;
-    }
-
+    
     .download-resume {
     margin-top: 2rem;
     font-size: 1.5rem;
@@ -1355,13 +1359,13 @@ input:invalid {
     .container {
     width: 80%;
     display: block;
-    margin:auto;
+    margin:0;
     }
 
     .content-section {
-    float:none;
-    display:block;
     margin:auto;
+    float: none;
+    width: 100%;
     }
     
     .image-section {
@@ -1433,6 +1437,11 @@ input:invalid {
     .portfolio_projects {
     display:none;
     }
+
+    .portfolio_right {
+    padding:0rem 0rem 0 0rem;
+    margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -1476,6 +1485,11 @@ input:invalid {
     img {
     margin-top: 10px;
     }
+
+    .portfolio_right {
+    padding:0rem 0rem 0 0rem;
+    margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -1496,9 +1510,6 @@ input:invalid {
     }
     .portfolio_container {
         padding-left: 0px;
-    }
-    .portfolio_right {
-        margin-bottom: 60px;
     }
 
     .portfolio_main {
