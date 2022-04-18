@@ -438,8 +438,7 @@ p {
 }
 
 .about .about-box {
-    float: left;
-    width: 50%;
+    width: 100%;
 }
 
 .about .profile {
